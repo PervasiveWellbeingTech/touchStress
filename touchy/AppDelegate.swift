@@ -12,9 +12,14 @@ import Cocoa
 class AppDelegate: NSObject, NSApplicationDelegate {
 
 
-
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
+        
+        //cursorRecorder.swift
+        DataOutput.initDataFolders()
+        
+        //touchRecorder.c
+        initTouchOutputFile()
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {

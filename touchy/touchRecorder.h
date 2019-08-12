@@ -11,6 +11,7 @@
 
 #include <CoreFoundation/CoreFoundation.h>
 //for the CFArrayRef type if we want to make a list of multitouch devices
+FILE *touchoutputfile = NULL;
 
 typedef struct {
     float x;
@@ -35,7 +36,7 @@ typedef struct {
     float angle;
     float majorAxis;
     float minorAxis;
-    MTVector absoluteVector;    // "units are mm"
+    MTVector absoluteVector;    // units are mm
     int field14;    // always 0
     int field15;    // always 0
     float zDensity;     // "ZDen" (~density)
@@ -60,5 +61,8 @@ CFArrayRef MTDeviceCreateList(void);
 MTDeviceRef startTouchRecording(void);
 
 int stopTouchRecording(MTDeviceRef);
+
+//testing file io
+void initTouchOutputFile();
 
 #endif /* touchRecorder_h */

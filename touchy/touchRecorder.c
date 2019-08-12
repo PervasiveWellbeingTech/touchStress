@@ -21,7 +21,7 @@ void MTFrameCallbackFunc(int device, MTTouch *touchArray, int numTouches, double
     for (int i = 0; i < numTouches; ++i) {
         MTTouch *current = &touchArray[i];
         
-        printf("Time: %4.3f; State: %2d; ID: %2d; absPos(%6.3f, %6.3f); absVel(%6.3f, %6.3f); Ellipse(%5.2fx%5.2f); size(%5.3f)\n",
+        fprintf(touchoutputfile, "Time: %4.3f; State: %2d; ID: %2d; absPos(%6.3f, %6.3f); absVel(%6.3f, %6.3f); Ellipse(%5.2fx%5.2f); size(%5.3f)\n",
                
                current->timestamp,
                current->state,
@@ -42,6 +42,7 @@ MTDeviceRef startTouchRecording() {
 }
 
 int stopTouchRecording(MTDeviceRef dev) {
+    fflush(touchoutputfile);
     if (dev && MTDeviceIsRunning(dev)){
         MTDeviceStop(dev);
         MTDeviceRelease(dev);
@@ -52,4 +53,19 @@ int stopTouchRecording(MTDeviceRef dev) {
     
     
     return 0;
+}
+
+
+void initTouchOutputFile(){
+    //fopen(path, options)
+    //a means append
+    //if file does not exist, fopen will automatically create it
+    //call this AFTER the swift file init
+    touchoutputfile = fopen("./data/touchOutputData.txt", "a");
+    if (touchoutputfile == NULL) {
+        printf("error: touchoutputfile.txt initialization failed");
+        exit(1);
+    }
+    
+    
 }

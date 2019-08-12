@@ -27,14 +27,14 @@ class ViewController: NSViewController {
     @IBAction func startRecording(_ sender: Any) {
         if (!recording){
             touchDevice = startTouchRecording()
-            cursorEventMonitorsArray.startup()
+            CursorEventMonitorsArray.startup()
             recording = true
             startButton.title = "Stop Recording"
         }
         else if (recording) {
             stopTouchRecording(touchDevice)
             touchDevice = nil
-            cursorEventMonitorsArray.cleanup()
+            CursorEventMonitorsArray.cleanup()
             recording = false
             startButton.title = "Start Recording"
         }

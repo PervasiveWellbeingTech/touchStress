@@ -1,0 +1,889 @@
+Write successWrite successLeft Mouse Down; Time: 147678.887; Location(873.9, 369.6), Pressure: 1.000
+Left Mouse Up; Time: 147678.987; Location(873.9, 369.6), Pressure: 0.000
+Mouse Moved; Time: 147679.186; Location(873.9, 369.4), Pressure: 0.000
+Mouse Moved; Time: 147679.194; Location(872.0, 367.0), Pressure: 0.000
+Mouse Moved; Time: 147679.203; Location(869.6, 364.1), Pressure: 0.000
+Mouse Moved; Time: 147679.211; Location(865.4, 360.0), Pressure: 0.000
+Mouse Moved; Time: 147679.219; Location(860.4, 355.6), Pressure: 0.000
+Mouse Moved; Time: 147679.227; Location(850.4, 347.3), Pressure: 0.000
+Mouse Moved; Time: 147679.236; Location(825.6, 329.5), Pressure: 0.000
+Mouse Moved; Time: 147679.244; Location(805.4, 314.9), Pressure: 0.000
+Mouse Moved; Time: 147679.252; Location(782.1, 301.0), Pressure: 0.000
+Mouse Moved; Time: 147679.260; Location(757.7, 288.2), Pressure: 0.000
+Mouse Moved; Time: 147679.268; Location(744.6, 283.0), Pressure: 0.000
+Mouse Moved; Time: 147679.277; Location(722.5, 273.5), Pressure: 0.000
+Mouse Moved; Time: 147679.285; Location(696.9, 264.2), Pressure: 0.000
+Mouse Moved; Time: 147679.293; Location(672.3, 258.6), Pressure: 0.000
+Mouse Moved; Time: 147679.301; Location(649.6, 256.5), Pressure: 0.000
+Mouse Moved; Time: 147679.310; Location(631.7, 255.5), Pressure: 0.000
+Mouse Moved; Time: 147679.318; Location(616.2, 255.5), Pressure: 0.000
+Mouse Moved; Time: 147679.326; Location(602.2, 259.0), Pressure: 0.000
+Mouse Moved; Time: 147679.334; Location(590.8, 267.8), Pressure: 0.000
+Mouse Moved; Time: 147679.343; Location(582.2, 279.8), Pressure: 0.000
+Mouse Moved; Time: 147679.351; Location(568.9, 306.3), Pressure: 0.000
+Mouse Moved; Time: 147679.359; Location(564.6, 329.0), Pressure: 0.000
+Mouse Moved; Time: 147679.367; Location(564.6, 343.0), Pressure: 0.000
+Mouse Moved; Time: 147679.376; Location(564.6, 368.1), Pressure: 0.000
+Mouse Moved; Time: 147679.384; Location(564.6, 392.8), Pressure: 0.000
+Mouse Moved; Time: 147679.392; Location(568.9, 415.4), Pressure: 0.000
+Mouse Moved; Time: 147679.400; Location(573.2, 423.3), Pressure: 0.000
+Mouse Moved; Time: 147679.408; Location(580.5, 437.0), Pressure: 0.000
+Mouse Moved; Time: 147679.417; Location(589.0, 448.0), Pressure: 0.000
+Mouse Moved; Time: 147679.425; Location(596.9, 455.9), Pressure: 0.000
+Mouse Moved; Time: 147679.433; Location(603.6, 459.9), Pressure: 0.000
+Mouse Moved; Time: 147679.441; Location(611.0, 461.9), Pressure: 0.000
+Mouse Moved; Time: 147679.450; Location(615.9, 461.9), Pressure: 0.000
+Mouse Moved; Time: 147679.458; Location(620.3, 461.9), Pressure: 0.000
+Mouse Moved; Time: 147679.466; Location(625.6, 459.6), Pressure: 0.000
+Mouse Moved; Time: 147679.474; Location(627.5, 453.3), Pressure: 0.000
+Mouse Moved; Time: 147679.482; Location(628.2, 443.5), Pressure: 0.000
+Mouse Moved; Time: 147679.491; Location(628.2, 431.6), Pressure: 0.000
+Mouse Moved; Time: 147679.499; Location(628.2, 416.0), Pressure: 0.000
+Mouse Moved; Time: 147679.507; Location(616.7, 383.9), Pressure: 0.000
+Mouse Moved; Time: 147679.515; Location(604.3, 361.5), Pressure: 0.000
+Mouse Moved; Time: 147679.524; Location(589.2, 337.0), Pressure: 0.000
+Mouse Moved; Time: 147679.532; Location(568.6, 310.0), Pressure: 0.000
+Mouse Moved; Time: 147679.540; Location(542.6, 281.2), Pressure: 0.000
+Mouse Moved; Time: 147679.548; Location(514.4, 250.2), Pressure: 0.000
+Mouse Moved; Time: 147679.557; Location(483.8, 218.3), Pressure: 0.000
+Mouse Moved; Time: 147679.565; Location(446.0, 182.0), Pressure: 0.000
+Mouse Moved; Time: 147679.573; Location(407.6, 149.8), Pressure: 0.000
+Mouse Moved; Time: 147679.581; Location(369.2, 119.0), Pressure: 0.000
+Mouse Moved; Time: 147679.590; Location(333.4, 94.2), Pressure: 0.000
+Mouse Moved; Time: 147679.598; Location(293.0, 70.4), Pressure: 0.000
+Mouse Moved; Time: 147679.606; Location(276.8, 62.7), Pressure: 0.000
+Mouse Moved; Time: 147679.614; Location(245.9, 49.8), Pressure: 0.000
+Mouse Moved; Time: 147679.623; Location(219.4, 40.6), Pressure: 0.000
+Mouse Moved; Time: 147679.631; Location(194.7, 35.0), Pressure: 0.000
+Mouse Moved; Time: 147679.639; Location(174.0, 32.9), Pressure: 0.000
+Mouse Moved; Time: 147679.647; Location(166.6, 32.9), Pressure: 0.000
+Mouse Moved; Time: 147679.655; Location(151.0, 32.9), Pressure: 0.000
+Mouse Moved; Time: 147679.664; Location(129.9, 36.0), Pressure: 0.000
+Mouse Moved; Time: 147679.672; Location(117.7, 43.0), Pressure: 0.000
+Mouse Moved; Time: 147679.680; Location(107.2, 52.6), Pressure: 0.000
+Mouse Moved; Time: 147679.688; Location(87.9, 75.5), Pressure: 0.000
+Mouse Moved; Time: 147679.697; Location(77.8, 94.7), Pressure: 0.000
+Mouse Moved; Time: 147679.705; Location(67.3, 120.3), Pressure: 0.000
+Mouse Moved; Time: 147679.713; Location(62.7, 135.9), Pressure: 0.000
+Mouse Moved; Time: 147679.721; Location(53.4, 161.5), Pressure: 0.000
+Mouse Moved; Time: 147679.730; Location(50.7, 169.7), Pressure: 0.000
+Mouse Moved; Time: 147679.738; Location(48.2, 176.0), Pressure: 0.000
+Mouse Moved; Time: 147679.746; Location(43.2, 187.6), Pressure: 0.000
+Mouse Moved; Time: 147679.754; Location(40.5, 195.0), Pressure: 0.000
+Mouse Moved; Time: 147679.762; Location(38.3, 199.4), Pressure: 0.000
+Mouse Moved; Time: 147679.771; Location(37.4, 202.1), Pressure: 0.000
+Mouse Moved; Time: 147679.779; Location(37.0, 203.7), Pressure: 0.000
+Mouse Moved; Time: 147679.787; Location(36.7, 203.9), Pressure: 0.000
+Mouse Moved; Time: 147679.795; Location(36.5, 204.2), Pressure: 0.000
+Mouse Moved; Time: 147679.935; Location(36.2, 204.2), Pressure: 0.000
+Mouse Moved; Time: 147679.952; Location(36.0, 204.2), Pressure: 0.000
+Mouse Moved; Time: 147679.960; Location(35.7, 204.2), Pressure: 0.000
+Mouse Moved; Time: 147679.968; Location(35.4, 204.2), Pressure: 0.000
+Mouse Moved; Time: 147679.985; Location(35.2, 204.2), Pressure: 0.000
+Mouse Moved; Time: 147679.993; Location(34.9, 204.2), Pressure: 0.000
+Mouse Moved; Time: 147680.009; Location(34.3, 203.3), Pressure: 0.000
+Mouse Moved; Time: 147680.018; Location(33.6, 201.9), Pressure: 0.000
+Mouse Moved; Time: 147680.026; Location(32.7, 199.7), Pressure: 0.000
+Mouse Moved; Time: 147680.034; Location(31.2, 196.2), Pressure: 0.000
+Mouse Moved; Time: 147680.042; Location(30.2, 192.6), Pressure: 0.000
+Mouse Moved; Time: 147680.050; Location(28.4, 187.3), Pressure: 0.000
+Mouse Moved; Time: 147680.059; Location(27.2, 181.3), Pressure: 0.000
+Mouse Moved; Time: 147680.067; Location(25.3, 175.0), Pressure: 0.000
+Mouse Moved; Time: 147680.075; Location(24.0, 167.6), Pressure: 0.000
+Mouse Moved; Time: 147680.083; Location(23.3, 160.2), Pressure: 0.000
+Mouse Moved; Time: 147680.092; Location(22.7, 154.4), Pressure: 0.000
+Mouse Moved; Time: 147680.100; Location(22.2, 151.6), Pressure: 0.000
+Mouse Moved; Time: 147680.108; Location(22.2, 147.2), Pressure: 0.000
+Mouse Moved; Time: 147680.116; Location(22.2, 143.6), Pressure: 0.000
+Mouse Moved; Time: 147680.125; Location(22.2, 141.6), Pressure: 0.000
+Mouse Moved; Time: 147680.133; Location(22.2, 140.0), Pressure: 0.000
+Mouse Moved; Time: 147680.141; Location(22.2, 138.5), Pressure: 0.000
+Mouse Moved; Time: 147680.149; Location(22.2, 137.9), Pressure: 0.000
+Mouse Moved; Time: 147680.157; Location(22.2, 137.6), Pressure: 0.000
+Mouse Moved; Time: 147680.166; Location(22.2, 137.3), Pressure: 0.000
+Mouse Moved; Time: 147680.174; Location(22.2, 137.1), Pressure: 0.000
+Left Mouse Down; Time: 147680.307; Location(22.2, 137.1), Pressure: 1.000
+Left Mouse Up; Time: 147680.397; Location(22.2, 137.1), Pressure: 0.000
+Write successLeft Mouse Down; Time: 148311.078; Location(861.6, 441.6), Pressure: 1.000
+Left Mouse Dragged; Time: 148311.078; Location(861.6, 441.6), Pressure: 1.000
+Left Mouse Up; Time: 148311.406; Location(861.6, 441.6), Pressure: 0.000
+Mouse Moved; Time: 148311.454; Location(860.9, 440.9), Pressure: 0.000
+Mouse Moved; Time: 148311.462; Location(857.0, 438.2), Pressure: 0.000
+Mouse Moved; Time: 148311.471; Location(853.6, 434.2), Pressure: 0.000
+Mouse Moved; Time: 148311.479; Location(851.3, 432.3), Pressure: 0.000
+Mouse Moved; Time: 148311.487; Location(848.4, 427.6), Pressure: 0.000
+Mouse Moved; Time: 148311.693; Location(848.4, 426.9), Pressure: 0.000
+Mouse Moved; Time: 148311.701; Location(847.8, 423.4), Pressure: 0.000
+Mouse Moved; Time: 148311.710; Location(845.9, 420.5), Pressure: 0.000
+Mouse Moved; Time: 148311.718; Location(843.7, 416.6), Pressure: 0.000
+Mouse Moved; Time: 148311.726; Location(840.8, 411.9), Pressure: 0.000
+Mouse Moved; Time: 148311.734; Location(834.7, 403.6), Pressure: 0.000
+Mouse Moved; Time: 148311.742; Location(829.0, 396.5), Pressure: 0.000
+Mouse Moved; Time: 148311.751; Location(823.3, 388.7), Pressure: 0.000
+Mouse Moved; Time: 148311.759; Location(815.0, 378.6), Pressure: 0.000
+Mouse Moved; Time: 148311.767; Location(804.9, 366.7), Pressure: 0.000
+Mouse Moved; Time: 148311.775; Location(794.4, 356.3), Pressure: 0.000
+Mouse Moved; Time: 148311.784; Location(783.1, 346.7), Pressure: 0.000
+Mouse Moved; Time: 148311.792; Location(778.1, 343.0), Pressure: 0.000
+Mouse Moved; Time: 148311.800; Location(768.1, 334.6), Pressure: 0.000
+Mouse Moved; Time: 148311.808; Location(759.8, 328.6), Pressure: 0.000
+Mouse Moved; Time: 148311.816; Location(757.0, 327.2), Pressure: 0.000
+Mouse Moved; Time: 148311.825; Location(751.6, 323.6), Pressure: 0.000
+Mouse Moved; Time: 148311.833; Location(748.6, 321.6), Pressure: 0.000
+Mouse Moved; Time: 148311.841; Location(745.5, 319.6), Pressure: 0.000
+Mouse Moved; Time: 148311.849; Location(744.0, 318.8), Pressure: 0.000
+Left Mouse Down; Time: 148311.860; Location(743.4, 318.5), Pressure: 1.000
+Left Mouse Down; Time: 148311.860; Location(743.4, 318.5), Pressure: 1.000
+Left Mouse Dragged; Time: 148311.860; Location(743.4, 318.5), Pressure: 1.000
+Left Mouse Dragged; Time: 148311.973; Location(742.7, 318.5), Pressure: 1.000
+Left Mouse Dragged; Time: 148311.981; Location(740.6, 318.5), Pressure: 1.000
+Left Mouse Dragged; Time: 148311.989; Location(738.4, 318.5), Pressure: 1.000
+Left Mouse Dragged; Time: 148311.998; Location(735.0, 318.5), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.006; Location(731.4, 318.5), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.014; Location(727.9, 318.5), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.022; Location(724.3, 318.5), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.030; Location(720.8, 318.5), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.039; Location(717.3, 318.5), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.047; Location(712.9, 318.5), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.055; Location(710.1, 318.5), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.063; Location(707.3, 318.5), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.072; Location(703.9, 319.0), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.080; Location(701.6, 320.9), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.088; Location(695.9, 327.3), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.096; Location(693.5, 332.6), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.104; Location(691.5, 339.9), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.113; Location(691.5, 343.4), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.121; Location(690.8, 353.1), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.129; Location(690.8, 362.9), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.137; Location(690.8, 371.5), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.146; Location(690.8, 380.7), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.154; Location(691.9, 386.0), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.162; Location(695.3, 392.7), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.170; Location(698.8, 396.8), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.179; Location(702.7, 400.1), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.187; Location(706.5, 402.9), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.195; Location(710.1, 404.4), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.203; Location(714.5, 406.0), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.212; Location(718.7, 407.1), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.220; Location(724.0, 407.1), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.228; Location(728.3, 407.1), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.236; Location(734.6, 407.1), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.244; Location(740.9, 407.1), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.253; Location(746.9, 405.3), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.261; Location(754.7, 401.0), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.269; Location(763.0, 395.8), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.277; Location(770.5, 389.0), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.286; Location(776.6, 382.9), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.294; Location(782.3, 375.8), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.302; Location(787.6, 367.5), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.310; Location(791.8, 359.7), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.318; Location(792.8, 356.9), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.327; Location(794.4, 351.8), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.335; Location(796.0, 348.3), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.343; Location(796.5, 344.7), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.352; Location(796.9, 342.7), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.360; Location(796.9, 338.3), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.368; Location(796.9, 335.5), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.376; Location(795.5, 332.7), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.384; Location(792.9, 329.6), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.393; Location(791.8, 328.5), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.401; Location(789.5, 326.6), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.409; Location(787.3, 325.4), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.417; Location(785.6, 324.1), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.426; Location(781.1, 321.2), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.434; Location(779.6, 320.9), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.442; Location(776.8, 320.4), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.450; Location(773.9, 319.9), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.459; Location(772.4, 319.9), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.467; Location(770.9, 319.9), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.475; Location(769.3, 319.9), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.483; Location(768.7, 320.5), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.491; Location(768.3, 322.1), Pressure: 1.000
+Left Mouse Dragged; Time: 148312.500; Location(768.0, 323.1), Pressure: 1.000
+Left Mouse Up; Time: 148312.510; Location(768.0, 324.6), Pressure: 0.000
+Mouse Moved; Time: 148312.510; Location(768.0, 324.6), Pressure: 0.000
+Left Mouse Down; Time: 148312.720; Location(768.0, 324.6), Pressure: 1.000
+Left Mouse Up; Time: 148312.810; Location(768.0, 324.6), Pressure: 0.000
+Mouse Moved; Time: 148313.014; Location(766.4, 323.4), Pressure: 0.000
+Mouse Moved; Time: 148313.022; Location(760.4, 318.7), Pressure: 0.000
+Mouse Moved; Time: 148313.030; Location(753.2, 313.0), Pressure: 0.000
+Mouse Moved; Time: 148313.039; Location(739.1, 301.7), Pressure: 0.000
+Mouse Moved; Time: 148313.047; Location(718.6, 289.9), Pressure: 0.000
+Mouse Moved; Time: 148313.055; Location(690.0, 274.9), Pressure: 0.000
+Mouse Moved; Time: 148313.063; Location(656.8, 259.0), Pressure: 0.000
+Mouse Moved; Time: 148313.072; Location(616.8, 242.5), Pressure: 0.000
+Mouse Moved; Time: 148313.080; Location(573.5, 224.5), Pressure: 0.000
+Mouse Moved; Time: 148313.088; Location(525.9, 209.2), Pressure: 0.000
+Mouse Moved; Time: 148313.096; Location(478.3, 195.4), Pressure: 0.000
+Mouse Moved; Time: 148313.105; Location(429.7, 183.6), Pressure: 0.000
+Mouse Moved; Time: 148313.113; Location(382.1, 171.3), Pressure: 0.000
+Mouse Moved; Time: 148313.121; Location(335.8, 162.3), Pressure: 0.000
+Mouse Moved; Time: 148313.129; Location(316.8, 159.3), Pressure: 0.000
+Mouse Moved; Time: 148313.137; Location(275.9, 152.3), Pressure: 0.000
+Mouse Moved; Time: 148313.146; Location(245.5, 150.0), Pressure: 0.000
+Mouse Moved; Time: 148313.154; Location(216.6, 147.6), Pressure: 0.000
+Mouse Moved; Time: 148313.162; Location(191.9, 146.4), Pressure: 0.000
+Mouse Moved; Time: 148313.170; Location(183.4, 145.7), Pressure: 0.000
+Mouse Moved; Time: 148313.179; Location(165.7, 144.8), Pressure: 0.000
+Mouse Moved; Time: 148313.187; Location(151.7, 144.8), Pressure: 0.000
+Mouse Moved; Time: 148313.195; Location(141.9, 144.8), Pressure: 0.000
+Mouse Moved; Time: 148313.203; Location(138.4, 144.3), Pressure: 0.000
+Mouse Moved; Time: 148313.212; Location(132.4, 144.3), Pressure: 0.000
+Mouse Moved; Time: 148313.220; Location(128.0, 144.3), Pressure: 0.000
+Mouse Moved; Time: 148313.228; Location(124.4, 143.8), Pressure: 0.000
+Mouse Moved; Time: 148313.236; Location(121.6, 143.3), Pressure: 0.000
+Mouse Moved; Time: 148313.245; Location(119.6, 143.3), Pressure: 0.000
+Mouse Moved; Time: 148313.253; Location(118.0, 142.9), Pressure: 0.000
+Mouse Moved; Time: 148313.261; Location(116.4, 142.5), Pressure: 0.000
+Mouse Moved; Time: 148313.269; Location(114.9, 142.2), Pressure: 0.000
+Mouse Moved; Time: 148313.277; Location(113.9, 141.8), Pressure: 0.000
+Mouse Moved; Time: 148313.286; Location(112.4, 141.4), Pressure: 0.000
+Mouse Moved; Time: 148313.294; Location(110.8, 140.7), Pressure: 0.000
+Mouse Moved; Time: 148313.302; Location(109.2, 140.3), Pressure: 0.000
+Mouse Moved; Time: 148313.310; Location(107.1, 139.4), Pressure: 0.000
+Mouse Moved; Time: 148313.319; Location(105.0, 138.6), Pressure: 0.000
+Mouse Moved; Time: 148313.327; Location(103.5, 137.8), Pressure: 0.000
+Mouse Moved; Time: 148313.335; Location(101.4, 137.4), Pressure: 0.000
+Mouse Moved; Time: 148313.343; Location(99.8, 136.6), Pressure: 0.000
+Mouse Moved; Time: 148313.351; Location(97.7, 135.8), Pressure: 0.000
+Mouse Moved; Time: 148313.360; Location(96.2, 135.4), Pressure: 0.000
+Mouse Moved; Time: 148313.368; Location(94.0, 135.0), Pressure: 0.000
+Mouse Moved; Time: 148313.376; Location(90.5, 134.5), Pressure: 0.000
+Mouse Moved; Time: 148313.384; Location(87.7, 134.0), Pressure: 0.000
+Mouse Moved; Time: 148313.393; Location(84.9, 133.6), Pressure: 0.000
+Mouse Moved; Time: 148313.401; Location(81.4, 133.0), Pressure: 0.000
+Mouse Moved; Time: 148313.409; Location(77.8, 132.5), Pressure: 0.000
+Mouse Moved; Time: 148313.417; Location(73.4, 131.4), Pressure: 0.000
+Mouse Moved; Time: 148313.426; Location(69.2, 130.9), Pressure: 0.000
+Mouse Moved; Time: 148313.434; Location(64.9, 129.8), Pressure: 0.000
+Mouse Moved; Time: 148313.442; Location(59.6, 129.2), Pressure: 0.000
+Mouse Moved; Time: 148313.450; Location(55.2, 128.2), Pressure: 0.000
+Mouse Moved; Time: 148313.459; Location(50.1, 127.0), Pressure: 0.000
+Mouse Moved; Time: 148313.467; Location(48.0, 126.6), Pressure: 0.000
+Mouse Moved; Time: 148313.475; Location(40.6, 125.3), Pressure: 0.000
+Mouse Moved; Time: 148313.483; Location(38.5, 124.8), Pressure: 0.000
+Mouse Moved; Time: 148313.491; Location(34.1, 124.3), Pressure: 0.000
+Mouse Moved; Time: 148313.500; Location(30.6, 123.8), Pressure: 0.000
+Mouse Moved; Time: 148313.508; Location(27.8, 123.8), Pressure: 0.000
+Mouse Moved; Time: 148313.516; Location(25.0, 123.8), Pressure: 0.000
+Mouse Moved; Time: 148313.524; Location(22.2, 123.8), Pressure: 0.000
+Mouse Moved; Time: 148313.533; Location(20.7, 123.8), Pressure: 0.000
+Mouse Moved; Time: 148313.541; Location(19.6, 123.8), Pressure: 0.000
+Mouse Moved; Time: 148313.549; Location(18.6, 123.8), Pressure: 0.000
+Mouse Moved; Time: 148313.557; Location(17.5, 123.8), Pressure: 0.000
+Mouse Moved; Time: 148313.566; Location(17.3, 123.8), Pressure: 0.000
+Mouse Moved; Time: 148313.574; Location(16.7, 123.8), Pressure: 0.000
+Mouse Moved; Time: 148313.590; Location(16.4, 124.1), Pressure: 0.000
+Mouse Moved; Time: 148313.615; Location(16.4, 124.3), Pressure: 0.000
+Left Mouse Down; Time: 148313.666; Location(16.4, 124.3), Pressure: 1.000
+Left Mouse Up; Time: 148313.740; Location(16.4, 124.3), Pressure: 0.000
+Write successLeft Mouse Down; Time: 149737.268; Location(1376.2, 888.2), Pressure: 1.000
+Left Mouse Dragged; Time: 149737.268; Location(1376.2, 888.2), Pressure: 1.000
+Left Mouse Up; Time: 149737.342; Location(1376.2, 888.2), Pressure: 0.000
+Write successLeft Mouse Down; Time: 553.691; Location(709.8, 327.2), Pressure: 1.000
+Left Mouse Up; Time: 553.805; Location(709.8, 327.2), Pressure: 0.000
+Mouse Moved; Time: 554.033; Location(709.5, 327.2), Pressure: 0.000
+Mouse Moved; Time: 554.041; Location(706.7, 326.7), Pressure: 0.000
+Mouse Moved; Time: 554.049; Location(703.4, 323.4), Pressure: 0.000
+Mouse Moved; Time: 554.057; Location(698.7, 320.5), Pressure: 0.000
+Mouse Moved; Time: 554.065; Location(693.0, 316.7), Pressure: 0.000
+Mouse Moved; Time: 554.072; Location(686.3, 312.7), Pressure: 0.000
+Mouse Moved; Time: 554.081; Location(673.2, 306.6), Pressure: 0.000
+Mouse Moved; Time: 554.089; Location(668.8, 305.5), Pressure: 0.000
+Mouse Moved; Time: 554.097; Location(659.0, 302.5), Pressure: 0.000
+Mouse Moved; Time: 554.105; Location(650.5, 300.4), Pressure: 0.000
+Mouse Moved; Time: 554.113; Location(640.7, 298.8), Pressure: 0.000
+Mouse Moved; Time: 554.121; Location(632.2, 298.1), Pressure: 0.000
+Mouse Moved; Time: 554.129; Location(622.4, 298.1), Pressure: 0.000
+Mouse Moved; Time: 554.136; Location(613.9, 298.1), Pressure: 0.000
+Mouse Moved; Time: 554.144; Location(605.3, 298.1), Pressure: 0.000
+Mouse Moved; Time: 554.152; Location(597.5, 302.4), Pressure: 0.000
+Mouse Moved; Time: 554.162; Location(591.2, 306.2), Pressure: 0.000
+Mouse Moved; Time: 554.169; Location(584.8, 311.9), Pressure: 0.000
+Mouse Moved; Time: 554.177; Location(579.8, 319.0), Pressure: 0.000
+Mouse Moved; Time: 554.185; Location(575.5, 326.8), Pressure: 0.000
+Mouse Moved; Time: 554.193; Location(571.8, 335.9), Pressure: 0.000
+Mouse Moved; Time: 554.201; Location(568.7, 345.6), Pressure: 0.000
+Mouse Moved; Time: 554.209; Location(568.0, 355.4), Pressure: 0.000
+Mouse Moved; Time: 554.217; Location(567.0, 374.4), Pressure: 0.000
+Mouse Moved; Time: 554.225; Location(567.0, 379.7), Pressure: 0.000
+Mouse Moved; Time: 554.233; Location(567.0, 390.8), Pressure: 0.000
+Mouse Moved; Time: 554.241; Location(567.0, 399.3), Pressure: 0.000
+Mouse Moved; Time: 554.249; Location(569.8, 407.9), Pressure: 0.000
+Mouse Moved; Time: 554.257; Location(573.8, 414.6), Pressure: 0.000
+Mouse Moved; Time: 554.265; Location(577.9, 421.3), Pressure: 0.000
+Mouse Moved; Time: 554.273; Location(583.2, 426.6), Pressure: 0.000
+Mouse Moved; Time: 554.281; Location(589.6, 432.3), Pressure: 0.000
+Mouse Moved; Time: 554.289; Location(595.3, 435.5), Pressure: 0.000
+Mouse Moved; Time: 554.297; Location(601.0, 438.6), Pressure: 0.000
+Mouse Moved; Time: 554.305; Location(607.3, 441.2), Pressure: 0.000
+Mouse Moved; Time: 554.313; Location(613.6, 442.4), Pressure: 0.000
+Mouse Moved; Time: 554.321; Location(619.9, 442.4), Pressure: 0.000
+Mouse Moved; Time: 554.329; Location(626.2, 442.4), Pressure: 0.000
+Mouse Moved; Time: 554.337; Location(632.4, 442.4), Pressure: 0.000
+Mouse Moved; Time: 554.345; Location(637.8, 442.4), Pressure: 0.000
+Mouse Moved; Time: 554.353; Location(643.1, 440.7), Pressure: 0.000
+Mouse Moved; Time: 554.362; Location(647.6, 437.8), Pressure: 0.000
+Mouse Moved; Time: 554.370; Location(651.4, 435.1), Pressure: 0.000
+Mouse Moved; Time: 554.378; Location(653.1, 433.8), Pressure: 0.000
+Mouse Moved; Time: 554.386; Location(659.5, 428.1), Pressure: 0.000
+Mouse Moved; Time: 554.394; Location(660.8, 426.4), Pressure: 0.000
+Mouse Moved; Time: 554.402; Location(662.6, 424.1), Pressure: 0.000
+Mouse Moved; Time: 554.410; Location(664.7, 421.0), Pressure: 0.000
+Mouse Moved; Time: 554.418; Location(666.0, 418.9), Pressure: 0.000
+Mouse Moved; Time: 554.426; Location(666.8, 416.8), Pressure: 0.000
+Mouse Moved; Time: 554.434; Location(667.6, 415.2), Pressure: 0.000
+Mouse Moved; Time: 554.442; Location(668.0, 413.7), Pressure: 0.000
+Mouse Moved; Time: 554.450; Location(668.4, 412.1), Pressure: 0.000
+Mouse Moved; Time: 554.458; Location(668.4, 410.6), Pressure: 0.000
+Mouse Moved; Time: 554.466; Location(668.4, 409.6), Pressure: 0.000
+Mouse Moved; Time: 554.474; Location(668.4, 408.0), Pressure: 0.000
+Mouse Moved; Time: 554.482; Location(667.1, 406.3), Pressure: 0.000
+Mouse Moved; Time: 554.491; Location(665.4, 405.0), Pressure: 0.000
+Mouse Moved; Time: 554.499; Location(663.6, 403.7), Pressure: 0.000
+Mouse Moved; Time: 554.506; Location(661.5, 402.9), Pressure: 0.000
+Mouse Moved; Time: 554.514; Location(659.4, 401.6), Pressure: 0.000
+Mouse Moved; Time: 554.522; Location(657.2, 400.8), Pressure: 0.000
+Mouse Moved; Time: 554.531; Location(654.4, 400.3), Pressure: 0.000
+Mouse Moved; Time: 554.538; Location(652.3, 399.9), Pressure: 0.000
+Mouse Moved; Time: 554.546; Location(650.2, 399.4), Pressure: 0.000
+Mouse Moved; Time: 554.555; Location(648.1, 399.0), Pressure: 0.000
+Mouse Moved; Time: 554.564; Location(646.0, 399.0), Pressure: 0.000
+Mouse Moved; Time: 554.572; Location(644.4, 399.0), Pressure: 0.000
+Mouse Moved; Time: 554.580; Location(642.3, 399.0), Pressure: 0.000
+Mouse Moved; Time: 554.587; Location(640.7, 398.6), Pressure: 0.000
+Mouse Moved; Time: 554.595; Location(639.2, 398.6), Pressure: 0.000
+Mouse Moved; Time: 554.603; Location(637.6, 398.6), Pressure: 0.000
+Mouse Moved; Time: 554.612; Location(636.1, 398.6), Pressure: 0.000
+Mouse Moved; Time: 554.620; Location(635.0, 398.6), Pressure: 0.000
+Mouse Moved; Time: 554.628; Location(634.0, 398.6), Pressure: 0.000
+Mouse Moved; Time: 554.636; Location(632.4, 398.6), Pressure: 0.000
+Mouse Moved; Time: 554.643; Location(631.4, 398.6), Pressure: 0.000
+Mouse Moved; Time: 554.651; Location(630.8, 398.6), Pressure: 0.000
+Mouse Moved; Time: 554.659; Location(629.7, 398.6), Pressure: 0.000
+Mouse Moved; Time: 554.668; Location(629.1, 398.6), Pressure: 0.000
+Mouse Moved; Time: 554.676; Location(628.5, 399.2), Pressure: 0.000
+Mouse Moved; Time: 554.683; Location(627.9, 399.6), Pressure: 0.000
+Mouse Moved; Time: 554.691; Location(627.3, 400.2), Pressure: 0.000
+Mouse Moved; Time: 554.699; Location(627.0, 400.4), Pressure: 0.000
+Mouse Moved; Time: 554.707; Location(626.4, 401.1), Pressure: 0.000
+Mouse Moved; Time: 554.716; Location(626.1, 401.7), Pressure: 0.000
+Mouse Moved; Time: 554.724; Location(626.1, 401.9), Pressure: 0.000
+Mouse Moved; Time: 554.732; Location(626.1, 402.2), Pressure: 0.000
+Mouse Moved; Time: 554.739; Location(626.1, 402.5), Pressure: 0.000
+Mouse Moved; Time: 554.748; Location(626.1, 402.7), Pressure: 0.000
+Mouse Moved; Time: 554.756; Location(626.1, 403.0), Pressure: 0.000
+Mouse Moved; Time: 554.764; Location(626.1, 403.3), Pressure: 0.000
+Mouse Moved; Time: 554.773; Location(626.1, 403.6), Pressure: 0.000
+Mouse Moved; Time: 554.788; Location(626.3, 403.6), Pressure: 0.000
+Mouse Moved; Time: 554.797; Location(627.4, 403.6), Pressure: 0.000
+Mouse Moved; Time: 554.804; Location(628.9, 403.6), Pressure: 0.000
+Mouse Moved; Time: 554.813; Location(630.5, 403.6), Pressure: 0.000
+Write successLeft Mouse Down; Time: 578.385; Location(848.1, 201.8), Pressure: 1.000
+Left Mouse Dragged; Time: 578.385; Location(848.1, 201.8), Pressure: 1.000
+Left Mouse Up; Time: 578.489; Location(848.1, 201.8), Pressure: 0.000
+Mouse Moved; Time: 578.641; Location(842.8, 201.0), Pressure: 0.000
+Mouse Moved; Time: 578.648; Location(834.2, 198.2), Pressure: 0.000
+Mouse Moved; Time: 578.657; Location(823.9, 193.4), Pressure: 0.000
+Mouse Moved; Time: 578.665; Location(814.1, 191.1), Pressure: 0.000
+Mouse Moved; Time: 578.673; Location(804.4, 187.4), Pressure: 0.000
+Mouse Moved; Time: 578.680; Location(794.6, 184.4), Pressure: 0.000
+Mouse Moved; Time: 578.689; Location(784.8, 182.9), Pressure: 0.000
+Mouse Moved; Time: 578.697; Location(776.3, 181.5), Pressure: 0.000
+Mouse Moved; Time: 578.705; Location(767.7, 180.7), Pressure: 0.000
+Mouse Moved; Time: 578.713; Location(748.8, 180.7), Pressure: 0.000
+Mouse Moved; Time: 578.720; Location(729.8, 179.8), Pressure: 0.000
+Mouse Moved; Time: 578.728; Location(714.2, 179.8), Pressure: 0.000
+Mouse Moved; Time: 578.737; Location(698.7, 179.8), Pressure: 0.000
+Mouse Moved; Time: 578.744; Location(683.1, 184.3), Pressure: 0.000
+Mouse Moved; Time: 578.752; Location(668.5, 190.7), Pressure: 0.000
+Mouse Moved; Time: 578.762; Location(655.7, 197.5), Pressure: 0.000
+Mouse Moved; Time: 578.770; Location(642.9, 206.7), Pressure: 0.000
+Mouse Moved; Time: 578.777; Location(638.5, 211.7), Pressure: 0.000
+Mouse Moved; Time: 578.786; Location(622.3, 227.9), Pressure: 0.000
+Mouse Moved; Time: 578.794; Location(619.9, 233.2), Pressure: 0.000
+Mouse Moved; Time: 578.802; Location(610.6, 251.9), Pressure: 0.000
+Mouse Moved; Time: 578.810; Location(608.1, 264.4), Pressure: 0.000
+Mouse Moved; Time: 578.818; Location(608.1, 276.9), Pressure: 0.000
+Mouse Moved; Time: 578.825; Location(608.1, 290.9), Pressure: 0.000
+Mouse Moved; Time: 578.833; Location(620.9, 315.3), Pressure: 0.000
+Mouse Moved; Time: 578.841; Location(636.6, 334.4), Pressure: 0.000
+Mouse Moved; Time: 578.850; Location(645.3, 342.3), Pressure: 0.000
+Mouse Moved; Time: 578.857; Location(664.3, 359.1), Pressure: 0.000
+Mouse Moved; Time: 578.866; Location(685.6, 372.6), Pressure: 0.000
+Mouse Moved; Time: 578.874; Location(706.1, 383.4), Pressure: 0.000
+Mouse Moved; Time: 578.882; Location(714.7, 386.2), Pressure: 0.000
+Mouse Moved; Time: 578.890; Location(730.9, 392.0), Pressure: 0.000
+Mouse Moved; Time: 578.898; Location(744.9, 395.5), Pressure: 0.000
+Mouse Moved; Time: 578.906; Location(757.4, 396.3), Pressure: 0.000
+Mouse Moved; Time: 578.913; Location(766.0, 396.3), Pressure: 0.000
+Mouse Moved; Time: 578.921; Location(772.3, 396.3), Pressure: 0.000
+Mouse Moved; Time: 578.929; Location(776.4, 392.8), Pressure: 0.000
+Mouse Moved; Time: 578.937; Location(778.6, 388.4), Pressure: 0.000
+Mouse Moved; Time: 578.945; Location(780.1, 378.6), Pressure: 0.000
+Mouse Moved; Time: 578.954; Location(780.1, 369.4), Pressure: 0.000
+Mouse Moved; Time: 578.962; Location(776.9, 358.3), Pressure: 0.000
+Mouse Moved; Time: 578.971; Location(767.3, 343.0), Pressure: 0.000
+Mouse Moved; Time: 578.979; Location(754.4, 328.0), Pressure: 0.000
+Mouse Moved; Time: 578.987; Location(738.2, 311.8), Pressure: 0.000
+Mouse Moved; Time: 578.994; Location(720.9, 296.7), Pressure: 0.000
+Mouse Moved; Time: 579.003; Location(704.3, 283.2), Pressure: 0.000
+Mouse Moved; Time: 579.010; Location(697.2, 278.2), Pressure: 0.000
+Mouse Moved; Time: 579.018; Location(683.4, 270.0), Pressure: 0.000
+Mouse Moved; Time: 579.027; Location(669.7, 261.8), Pressure: 0.000
+Mouse Moved; Time: 579.035; Location(658.0, 256.8), Pressure: 0.000
+Mouse Moved; Time: 579.042; Location(648.2, 253.0), Pressure: 0.000
+Mouse Moved; Time: 579.050; Location(640.9, 251.7), Pressure: 0.000
+Mouse Moved; Time: 579.058; Location(633.5, 251.0), Pressure: 0.000
+Mouse Moved; Time: 579.067; Location(628.2, 251.0), Pressure: 0.000
+Mouse Moved; Time: 579.074; Location(623.8, 251.0), Pressure: 0.000
+Mouse Moved; Time: 579.082; Location(621.0, 252.4), Pressure: 0.000
+Mouse Moved; Time: 579.091; Location(618.2, 256.2), Pressure: 0.000
+Mouse Moved; Time: 579.098; Location(616.0, 260.6), Pressure: 0.000
+Mouse Moved; Time: 579.107; Location(615.4, 266.9), Pressure: 0.000
+Mouse Moved; Time: 579.115; Location(615.4, 279.4), Pressure: 0.000
+Mouse Moved; Time: 579.123; Location(615.4, 288.0), Pressure: 0.000
+Mouse Moved; Time: 579.131; Location(623.3, 300.2), Pressure: 0.000
+Mouse Moved; Time: 579.328; Location(620.1, 299.7), Pressure: 0.000
+Mouse Moved; Time: 579.336; Location(613.8, 298.5), Pressure: 0.000
+Mouse Moved; Time: 579.344; Location(607.4, 297.8), Pressure: 0.000
+Mouse Moved; Time: 579.351; Location(601.1, 297.2), Pressure: 0.000
+Mouse Moved; Time: 579.359; Location(595.8, 297.2), Pressure: 0.000
+Mouse Moved; Time: 579.368; Location(589.8, 297.2), Pressure: 0.000
+Mouse Moved; Time: 579.376; Location(583.5, 297.2), Pressure: 0.000
+Mouse Moved; Time: 579.384; Location(571.0, 299.7), Pressure: 0.000
+Mouse Moved; Time: 579.392; Location(557.9, 305.0), Pressure: 0.000
+Mouse Moved; Time: 579.400; Location(544.1, 312.3), Pressure: 0.000
+Mouse Moved; Time: 579.408; Location(531.9, 320.2), Pressure: 0.000
+Mouse Moved; Time: 579.416; Location(517.5, 329.7), Pressure: 0.000
+Mouse Moved; Time: 579.425; Location(503.2, 340.3), Pressure: 0.000
+Mouse Moved; Time: 579.433; Location(488.8, 350.8), Pressure: 0.000
+Mouse Moved; Time: 579.440; Location(483.8, 354.6), Pressure: 0.000
+Mouse Moved; Time: 579.449; Location(472.4, 363.3), Pressure: 0.000
+Mouse Moved; Time: 579.457; Location(462.4, 370.8), Pressure: 0.000
+Mouse Moved; Time: 579.464; Location(454.2, 376.8), Pressure: 0.000
+Mouse Moved; Time: 579.473; Location(447.0, 381.8), Pressure: 0.000
+Mouse Moved; Time: 579.480; Location(444.9, 383.1), Pressure: 0.000
+Mouse Moved; Time: 579.488; Location(440.2, 386.1), Pressure: 0.000
+Mouse Moved; Time: 579.497; Location(436.3, 388.3), Pressure: 0.000
+Mouse Moved; Time: 579.504; Location(433.3, 390.3), Pressure: 0.000
+Mouse Moved; Time: 579.513; Location(431.2, 391.6), Pressure: 0.000
+Mouse Moved; Time: 579.521; Location(429.0, 392.9), Pressure: 0.000
+Mouse Moved; Time: 579.528; Location(428.0, 393.6), Pressure: 0.000
+Mouse Moved; Time: 579.537; Location(427.3, 394.6), Pressure: 0.000
+Mouse Moved; Time: 579.544; Location(426.7, 395.2), Pressure: 0.000
+Mouse Moved; Time: 579.745; Location(426.4, 395.2), Pressure: 0.000
+Mouse Moved; Time: 579.753; Location(423.6, 394.3), Pressure: 0.000
+Mouse Moved; Time: 579.761; Location(421.5, 393.0), Pressure: 0.000
+Mouse Moved; Time: 579.770; Location(418.1, 391.5), Pressure: 0.000
+Mouse Moved; Time: 579.778; Location(406.4, 386.5), Pressure: 0.000
+Mouse Moved; Time: 579.786; Location(402.0, 384.9), Pressure: 0.000
+Mouse Moved; Time: 579.794; Location(387.3, 378.5), Pressure: 0.000
+Mouse Moved; Time: 579.802; Location(377.0, 373.7), Pressure: 0.000
+Mouse Moved; Time: 579.810; Location(365.4, 368.7), Pressure: 0.000
+Mouse Moved; Time: 579.818; Location(351.6, 361.4), Pressure: 0.000
+Mouse Moved; Time: 579.826; Location(337.9, 354.1), Pressure: 0.000
+Mouse Moved; Time: 579.834; Location(323.5, 344.5), Pressure: 0.000
+Mouse Moved; Time: 579.842; Location(309.2, 334.0), Pressure: 0.000
+Mouse Moved; Time: 579.850; Location(294.2, 322.0), Pressure: 0.000
+Mouse Moved; Time: 579.858; Location(280.3, 309.1), Pressure: 0.000
+Mouse Moved; Time: 579.866; Location(264.7, 294.5), Pressure: 0.000
+Mouse Moved; Time: 579.874; Location(250.1, 278.9), Pressure: 0.000
+Mouse Moved; Time: 579.882; Location(237.2, 265.0), Pressure: 0.000
+Mouse Moved; Time: 579.890; Location(224.2, 250.0), Pressure: 0.000
+Mouse Moved; Time: 579.898; Location(212.2, 235.1), Pressure: 0.000
+Mouse Moved; Time: 579.906; Location(206.5, 228.7), Pressure: 0.000
+Mouse Moved; Time: 579.914; Location(197.4, 215.8), Pressure: 0.000
+Mouse Moved; Time: 579.922; Location(189.0, 205.8), Pressure: 0.000
+Mouse Moved; Time: 579.930; Location(181.5, 195.8), Pressure: 0.000
+Mouse Moved; Time: 579.938; Location(174.4, 187.1), Pressure: 0.000
+Mouse Moved; Time: 579.946; Location(168.7, 180.0), Pressure: 0.000
+Mouse Moved; Time: 579.954; Location(163.0, 173.6), Pressure: 0.000
+Mouse Moved; Time: 579.963; Location(161.4, 172.0), Pressure: 0.000
+Mouse Moved; Time: 579.971; Location(157.2, 167.8), Pressure: 0.000
+Mouse Moved; Time: 579.979; Location(153.4, 165.1), Pressure: 0.000
+Mouse Moved; Time: 579.987; Location(150.3, 163.1), Pressure: 0.000
+Mouse Moved; Time: 579.995; Location(144.7, 159.9), Pressure: 0.000
+Mouse Moved; Time: 580.003; Location(143.1, 159.5), Pressure: 0.000
+Mouse Moved; Time: 580.011; Location(140.3, 159.1), Pressure: 0.000
+Mouse Moved; Time: 580.019; Location(135.0, 158.5), Pressure: 0.000
+Mouse Moved; Time: 580.027; Location(131.4, 158.0), Pressure: 0.000
+Mouse Moved; Time: 580.035; Location(127.9, 158.0), Pressure: 0.000
+Mouse Moved; Time: 580.043; Location(123.5, 158.0), Pressure: 0.000
+Mouse Moved; Time: 580.051; Location(119.1, 158.0), Pressure: 0.000
+Mouse Moved; Time: 580.059; Location(114.7, 158.5), Pressure: 0.000
+Mouse Moved; Time: 580.067; Location(110.3, 160.2), Pressure: 0.000
+Mouse Moved; Time: 580.075; Location(105.9, 162.4), Pressure: 0.000
+Mouse Moved; Time: 580.083; Location(102.1, 164.6), Pressure: 0.000
+Mouse Moved; Time: 580.091; Location(98.2, 167.3), Pressure: 0.000
+Mouse Moved; Time: 580.099; Location(96.5, 168.6), Pressure: 0.000
+Mouse Moved; Time: 580.107; Location(90.9, 172.4), Pressure: 0.000
+Mouse Moved; Time: 580.115; Location(89.7, 173.5), Pressure: 0.000
+Mouse Moved; Time: 580.123; Location(84.7, 177.3), Pressure: 0.000
+Mouse Moved; Time: 580.132; Location(83.5, 178.5), Pressure: 0.000
+Mouse Moved; Time: 580.139; Location(81.6, 180.8), Pressure: 0.000
+Mouse Moved; Time: 580.148; Location(79.9, 182.5), Pressure: 0.000
+Mouse Moved; Time: 580.155; Location(78.6, 184.7), Pressure: 0.000
+Mouse Moved; Time: 580.165; Location(77.4, 186.7), Pressure: 0.000
+Mouse Moved; Time: 580.172; Location(76.4, 190.3), Pressure: 0.000
+Mouse Moved; Time: 580.181; Location(75.9, 193.8), Pressure: 0.000
+Mouse Moved; Time: 580.189; Location(75.9, 198.2), Pressure: 0.000
+Mouse Moved; Time: 580.196; Location(75.9, 203.5), Pressure: 0.000
+Mouse Moved; Time: 580.204; Location(75.9, 210.9), Pressure: 0.000
+Mouse Moved; Time: 580.212; Location(75.9, 217.2), Pressure: 0.000
+Mouse Moved; Time: 580.220; Location(77.1, 223.5), Pressure: 0.000
+Mouse Moved; Time: 580.228; Location(78.1, 226.3), Pressure: 0.000
+Mouse Moved; Time: 580.236; Location(79.2, 230.7), Pressure: 0.000
+Mouse Moved; Time: 580.244; Location(80.6, 233.5), Pressure: 0.000
+Mouse Moved; Time: 580.252; Location(81.4, 235.7), Pressure: 0.000
+Mouse Moved; Time: 580.260; Location(81.8, 236.7), Pressure: 0.000
+Mouse Moved; Time: 580.268; Location(82.1, 237.3), Pressure: 0.000
+Mouse Moved; Time: 580.277; Location(82.3, 237.3), Pressure: 0.000
+Mouse Moved; Time: 580.285; Location(82.6, 237.3), Pressure: 0.000
+Mouse Moved; Time: 580.308; Location(82.3, 236.2), Pressure: 0.000
+Mouse Moved; Time: 580.317; Location(80.6, 234.5), Pressure: 0.000
+Mouse Moved; Time: 580.325; Location(78.9, 232.8), Pressure: 0.000
+Mouse Moved; Time: 580.332; Location(77.2, 231.1), Pressure: 0.000
+Mouse Moved; Time: 580.340; Location(74.6, 228.5), Pressure: 0.000
+Mouse Moved; Time: 580.348; Location(72.1, 226.0), Pressure: 0.000
+Mouse Moved; Time: 580.357; Location(69.9, 224.2), Pressure: 0.000
+Mouse Moved; Time: 580.365; Location(68.0, 221.9), Pressure: 0.000
+Mouse Moved; Time: 580.373; Location(66.1, 219.5), Pressure: 0.000
+Mouse Moved; Time: 580.381; Location(62.8, 216.2), Pressure: 0.000
+Mouse Moved; Time: 580.389; Location(60.3, 213.2), Pressure: 0.000
+Mouse Moved; Time: 580.397; Location(58.4, 210.9), Pressure: 0.000
+Mouse Moved; Time: 580.405; Location(56.4, 207.8), Pressure: 0.000
+Mouse Moved; Time: 580.413; Location(53.8, 204.8), Pressure: 0.000
+Mouse Moved; Time: 580.421; Location(51.8, 201.7), Pressure: 0.000
+Mouse Moved; Time: 580.429; Location(49.6, 197.9), Pressure: 0.000
+Mouse Moved; Time: 580.437; Location(48.3, 196.2), Pressure: 0.000
+Mouse Moved; Time: 580.446; Location(44.5, 190.5), Pressure: 0.000
+Mouse Moved; Time: 580.454; Location(42.0, 187.5), Pressure: 0.000
+Mouse Moved; Time: 580.461; Location(40.7, 185.8), Pressure: 0.000
+Mouse Moved; Time: 580.469; Location(38.7, 182.7), Pressure: 0.000
+Mouse Moved; Time: 580.477; Location(36.8, 180.4), Pressure: 0.000
+Mouse Moved; Time: 580.485; Location(35.5, 178.2), Pressure: 0.000
+Mouse Moved; Time: 580.494; Location(33.8, 176.5), Pressure: 0.000
+Mouse Moved; Time: 580.501; Location(32.5, 174.8), Pressure: 0.000
+Mouse Moved; Time: 580.509; Location(31.7, 172.7), Pressure: 0.000
+Mouse Moved; Time: 580.518; Location(30.4, 171.0), Pressure: 0.000
+Mouse Moved; Time: 580.526; Location(29.5, 168.9), Pressure: 0.000
+Mouse Moved; Time: 580.534; Location(28.7, 166.7), Pressure: 0.000
+Mouse Moved; Time: 580.542; Location(28.3, 165.2), Pressure: 0.000
+Mouse Moved; Time: 580.551; Location(27.9, 163.1), Pressure: 0.000
+Mouse Moved; Time: 580.559; Location(27.0, 160.9), Pressure: 0.000
+Mouse Moved; Time: 580.566; Location(27.0, 159.4), Pressure: 0.000
+Mouse Moved; Time: 580.574; Location(26.6, 157.3), Pressure: 0.000
+Mouse Moved; Time: 580.582; Location(26.6, 155.7), Pressure: 0.000
+Mouse Moved; Time: 580.590; Location(26.6, 154.2), Pressure: 0.000
+Mouse Moved; Time: 580.598; Location(26.6, 152.6), Pressure: 0.000
+Mouse Moved; Time: 580.606; Location(26.6, 151.1), Pressure: 0.000
+Mouse Moved; Time: 580.614; Location(26.6, 148.9), Pressure: 0.000
+Mouse Moved; Time: 580.622; Location(26.6, 147.4), Pressure: 0.000
+Mouse Moved; Time: 580.631; Location(26.6, 145.9), Pressure: 0.000
+Mouse Moved; Time: 580.638; Location(26.6, 144.3), Pressure: 0.000
+Mouse Moved; Time: 580.647; Location(26.6, 142.8), Pressure: 0.000
+Mouse Moved; Time: 580.655; Location(26.6, 141.7), Pressure: 0.000
+Mouse Moved; Time: 580.663; Location(26.6, 140.2), Pressure: 0.000
+Mouse Moved; Time: 580.670; Location(26.6, 139.1), Pressure: 0.000
+Mouse Moved; Time: 580.678; Location(26.6, 138.5), Pressure: 0.000
+Mouse Moved; Time: 580.686; Location(26.6, 137.9), Pressure: 0.000
+Mouse Moved; Time: 580.695; Location(26.6, 137.3), Pressure: 0.000
+Mouse Moved; Time: 580.703; Location(26.6, 137.0), Pressure: 0.000
+Mouse Moved; Time: 580.711; Location(26.6, 136.8), Pressure: 0.000
+Mouse Moved; Time: 580.718; Location(26.3, 136.5), Pressure: 0.000
+Mouse Moved; Time: 580.727; Location(26.3, 136.2), Pressure: 0.000
+Mouse Moved; Time: 580.744; Location(26.3, 136.0), Pressure: 0.000
+Mouse Moved; Time: 580.760; Location(26.1, 136.0), Pressure: 0.000
+Mouse Moved; Time: 580.807; Location(25.8, 136.0), Pressure: 0.000
+Left Mouse Down; Time: 580.849; Location(25.8, 136.0), Pressure: 1.000
+Left Mouse Up; Time: 580.905; Location(25.8, 136.0), Pressure: 0.000
+Left Mouse Down; Time: 846.654; Location(822.3, 112.2), Pressure: 1.000
+Left Mouse Up; Time: 846.751; Location(822.3, 112.2), Pressure: 0.000
+Mouse Moved; Time: 848.411; Location(822.0, 112.2), Pressure: 0.000
+Mouse Moved; Time: 848.419; Location(818.5, 112.2), Pressure: 0.000
+Mouse Moved; Time: 848.427; Location(814.1, 111.1), Pressure: 0.000
+Mouse Moved; Time: 848.435; Location(809.7, 110.0), Pressure: 0.000
+Mouse Moved; Time: 848.443; Location(804.4, 108.2), Pressure: 0.000
+Mouse Moved; Time: 848.451; Location(799.1, 107.0), Pressure: 0.000
+Mouse Moved; Time: 848.459; Location(793.8, 105.9), Pressure: 0.000
+Mouse Moved; Time: 848.467; Location(789.4, 104.8), Pressure: 0.000
+Mouse Moved; Time: 848.475; Location(782.0, 104.1), Pressure: 0.000
+Mouse Moved; Time: 848.483; Location(773.5, 103.4), Pressure: 0.000
+Mouse Moved; Time: 848.491; Location(766.1, 103.4), Pressure: 0.000
+Mouse Moved; Time: 848.499; Location(759.8, 103.4), Pressure: 0.000
+Mouse Moved; Time: 848.507; Location(754.5, 103.4), Pressure: 0.000
+Mouse Moved; Time: 848.515; Location(749.8, 106.3), Pressure: 0.000
+Mouse Moved; Time: 848.523; Location(745.6, 109.9), Pressure: 0.000
+Mouse Moved; Time: 848.531; Location(739.3, 119.4), Pressure: 0.000
+Mouse Moved; Time: 848.539; Location(737.2, 127.9), Pressure: 0.000
+Mouse Moved; Time: 848.547; Location(736.3, 141.9), Pressure: 0.000
+Mouse Moved; Time: 848.555; Location(736.3, 159.1), Pressure: 0.000
+Mouse Moved; Time: 848.563; Location(736.3, 192.6), Pressure: 0.000
+Mouse Moved; Time: 848.572; Location(744.1, 218.3), Pressure: 0.000
+Mouse Moved; Time: 848.580; Location(749.4, 231.4), Pressure: 0.000
+Mouse Moved; Time: 848.588; Location(759.8, 257.0), Pressure: 0.000
+Mouse Moved; Time: 848.596; Location(771.0, 279.4), Pressure: 0.000
+Mouse Moved; Time: 848.604; Location(776.0, 286.5), Pressure: 0.000
+Mouse Moved; Time: 848.612; Location(785.6, 300.9), Pressure: 0.000
+Mouse Moved; Time: 848.620; Location(795.2, 311.4), Pressure: 0.000
+Mouse Moved; Time: 848.628; Location(803.9, 318.5), Pressure: 0.000
+Mouse Moved; Time: 848.636; Location(817.6, 326.8), Pressure: 0.000
+Mouse Moved; Time: 848.644; Location(822.0, 326.8), Pressure: 0.000
+Mouse Moved; Time: 849.247; Location(815.3, 325.5), Pressure: 0.000
+Mouse Moved; Time: 849.255; Location(799.7, 321.0), Pressure: 0.000
+Mouse Moved; Time: 849.263; Location(783.4, 315.2), Pressure: 0.000
+Mouse Moved; Time: 849.271; Location(762.7, 309.0), Pressure: 0.000
+Mouse Moved; Time: 849.279; Location(732.8, 300.3), Pressure: 0.000
+Mouse Moved; Time: 849.287; Location(701.7, 291.6), Pressure: 0.000
+Mouse Moved; Time: 849.295; Location(668.2, 282.6), Pressure: 0.000
+Mouse Moved; Time: 849.303; Location(595.3, 262.0), Pressure: 0.000
+Mouse Moved; Time: 849.311; Location(518.8, 239.1), Pressure: 0.000
+Mouse Moved; Time: 849.319; Location(442.3, 216.1), Pressure: 0.000
+Mouse Moved; Time: 849.327; Location(410.2, 205.8), Pressure: 0.000
+Mouse Moved; Time: 849.335; Location(344.1, 188.0), Pressure: 0.000
+Mouse Moved; Time: 849.343; Location(287.6, 173.0), Pressure: 0.000
+Mouse Moved; Time: 849.351; Location(238.5, 160.8), Pressure: 0.000
+Mouse Moved; Time: 849.359; Location(221.3, 156.9), Pressure: 0.000
+Mouse Moved; Time: 849.368; Location(185.7, 149.3), Pressure: 0.000
+Mouse Moved; Time: 849.376; Location(156.9, 144.5), Pressure: 0.000
+Mouse Moved; Time: 849.384; Location(147.1, 143.0), Pressure: 0.000
+Mouse Moved; Time: 849.392; Location(126.3, 139.9), Pressure: 0.000
+Mouse Moved; Time: 849.400; Location(110.7, 138.1), Pressure: 0.000
+Mouse Moved; Time: 849.408; Location(105.4, 137.5), Pressure: 0.000
+Mouse Moved; Time: 849.416; Location(95.7, 136.7), Pressure: 0.000
+Mouse Moved; Time: 849.424; Location(89.4, 135.5), Pressure: 0.000
+Mouse Moved; Time: 849.432; Location(84.1, 134.9), Pressure: 0.000
+Mouse Moved; Time: 849.440; Location(81.2, 134.4), Pressure: 0.000
+Mouse Moved; Time: 849.448; Location(78.4, 134.0), Pressure: 0.000
+Mouse Moved; Time: 849.456; Location(77.4, 133.6), Pressure: 0.000
+Mouse Moved; Time: 849.464; Location(76.3, 133.3), Pressure: 0.000
+Mouse Moved; Time: 849.472; Location(75.3, 133.3), Pressure: 0.000
+Mouse Moved; Time: 849.480; Location(74.7, 133.3), Pressure: 0.000
+Mouse Moved; Time: 849.488; Location(74.4, 133.3), Pressure: 0.000
+Mouse Moved; Time: 849.496; Location(73.4, 133.3), Pressure: 0.000
+Mouse Moved; Time: 849.504; Location(72.8, 133.3), Pressure: 0.000
+Mouse Moved; Time: 849.512; Location(72.2, 133.3), Pressure: 0.000
+Mouse Moved; Time: 849.520; Location(71.1, 133.3), Pressure: 0.000
+Mouse Moved; Time: 849.528; Location(70.5, 133.9), Pressure: 0.000
+Mouse Moved; Time: 849.536; Location(69.5, 134.6), Pressure: 0.000
+Mouse Moved; Time: 849.544; Location(68.4, 135.3), Pressure: 0.000
+Mouse Moved; Time: 849.552; Location(67.8, 135.9), Pressure: 0.000
+Mouse Moved; Time: 849.560; Location(67.2, 136.5), Pressure: 0.000
+Mouse Moved; Time: 849.569; Location(66.6, 137.1), Pressure: 0.000
+Mouse Moved; Time: 849.577; Location(66.3, 137.7), Pressure: 0.000
+Mouse Moved; Time: 849.585; Location(65.7, 138.0), Pressure: 0.000
+Mouse Moved; Time: 849.593; Location(65.4, 138.6), Pressure: 0.000
+Mouse Moved; Time: 849.601; Location(64.7, 138.9), Pressure: 0.000
+Mouse Moved; Time: 849.609; Location(64.4, 139.6), Pressure: 0.000
+Mouse Moved; Time: 849.617; Location(63.8, 139.9), Pressure: 0.000
+Mouse Moved; Time: 849.625; Location(63.2, 140.5), Pressure: 0.000
+Mouse Moved; Time: 849.633; Location(62.9, 141.1), Pressure: 0.000
+Mouse Moved; Time: 849.641; Location(62.3, 141.4), Pressure: 0.000
+Mouse Moved; Time: 849.649; Location(61.7, 142.0), Pressure: 0.000
+Mouse Moved; Time: 849.657; Location(61.1, 142.3), Pressure: 0.000
+Mouse Moved; Time: 849.665; Location(60.4, 142.6), Pressure: 0.000
+Mouse Moved; Time: 849.673; Location(59.4, 143.0), Pressure: 0.000
+Mouse Moved; Time: 849.681; Location(58.4, 143.0), Pressure: 0.000
+Mouse Moved; Time: 849.689; Location(57.3, 143.0), Pressure: 0.000
+Mouse Moved; Time: 849.697; Location(55.8, 143.0), Pressure: 0.000
+Mouse Moved; Time: 849.705; Location(54.7, 143.0), Pressure: 0.000
+Mouse Moved; Time: 849.713; Location(52.6, 143.0), Pressure: 0.000
+Mouse Moved; Time: 849.721; Location(51.0, 143.0), Pressure: 0.000
+Mouse Moved; Time: 849.729; Location(49.5, 143.0), Pressure: 0.000
+Mouse Moved; Time: 849.737; Location(47.9, 143.0), Pressure: 0.000
+Mouse Moved; Time: 849.745; Location(46.4, 143.0), Pressure: 0.000
+Mouse Moved; Time: 849.754; Location(44.9, 143.0), Pressure: 0.000
+Mouse Moved; Time: 849.762; Location(43.3, 143.0), Pressure: 0.000
+Mouse Moved; Time: 849.770; Location(42.3, 142.6), Pressure: 0.000
+Mouse Moved; Time: 849.778; Location(41.2, 142.3), Pressure: 0.000
+Mouse Moved; Time: 849.786; Location(39.7, 141.5), Pressure: 0.000
+Mouse Moved; Time: 849.794; Location(38.6, 141.2), Pressure: 0.000
+Mouse Moved; Time: 849.802; Location(37.6, 140.5), Pressure: 0.000
+Mouse Moved; Time: 849.810; Location(36.6, 139.8), Pressure: 0.000
+Mouse Moved; Time: 849.818; Location(35.5, 139.1), Pressure: 0.000
+Mouse Moved; Time: 849.826; Location(34.5, 138.8), Pressure: 0.000
+Mouse Moved; Time: 849.834; Location(33.9, 138.5), Pressure: 0.000
+Mouse Moved; Time: 849.842; Location(33.2, 138.1), Pressure: 0.000
+Mouse Moved; Time: 849.850; Location(32.6, 137.8), Pressure: 0.000
+Mouse Moved; Time: 849.858; Location(32.4, 137.6), Pressure: 0.000
+Mouse Moved; Time: 849.866; Location(32.1, 137.3), Pressure: 0.000
+Mouse Moved; Time: 849.874; Location(31.8, 137.0), Pressure: 0.000
+Mouse Moved; Time: 849.891; Location(31.6, 137.0), Pressure: 0.000
+Mouse Moved; Time: 849.898; Location(31.6, 136.8), Pressure: 0.000
+Mouse Moved; Time: 849.907; Location(31.3, 136.8), Pressure: 0.000
+Left Mouse Down; Time: 849.940; Location(31.3, 136.8), Pressure: 1.000
+Left Mouse Up; Time: 850.004; Location(31.3, 136.8), Pressure: 0.000
+Write successLeft Mouse Down; Time: 1005.125; Location(675.1, 119.9), Pressure: 1.000
+Left Mouse Up; Time: 1005.221; Location(675.1, 119.9), Pressure: 0.000
+Mouse Moved; Time: 1005.526; Location(674.8, 119.9), Pressure: 0.000
+Mouse Moved; Time: 1005.534; Location(673.1, 118.6), Pressure: 0.000
+Mouse Moved; Time: 1005.542; Location(670.3, 117.2), Pressure: 0.000
+Mouse Moved; Time: 1005.550; Location(667.3, 115.2), Pressure: 0.000
+Mouse Moved; Time: 1005.558; Location(662.9, 113.0), Pressure: 0.000
+Mouse Moved; Time: 1005.566; Location(657.6, 110.7), Pressure: 0.000
+Mouse Moved; Time: 1005.574; Location(651.3, 108.1), Pressure: 0.000
+Mouse Moved; Time: 1005.582; Location(643.9, 106.1), Pressure: 0.000
+Mouse Moved; Time: 1005.590; Location(629.9, 102.6), Pressure: 0.000
+Mouse Moved; Time: 1005.597; Location(624.6, 102.1), Pressure: 0.000
+Mouse Moved; Time: 1005.605; Location(614.8, 102.1), Pressure: 0.000
+Mouse Moved; Time: 1005.613; Location(605.0, 102.1), Pressure: 0.000
+Mouse Moved; Time: 1005.621; Location(597.7, 102.1), Pressure: 0.000
+Mouse Moved; Time: 1005.630; Location(594.9, 102.5), Pressure: 0.000
+Mouse Moved; Time: 1005.638; Location(589.7, 104.2), Pressure: 0.000
+Mouse Moved; Time: 1005.646; Location(585.9, 106.4), Pressure: 0.000
+Mouse Moved; Time: 1005.654; Location(580.9, 110.8), Pressure: 0.000
+Mouse Moved; Time: 1005.662; Location(578.5, 116.1), Pressure: 0.000
+Mouse Moved; Time: 1005.670; Location(578.5, 122.4), Pressure: 0.000
+Mouse Moved; Time: 1005.678; Location(578.5, 129.8), Pressure: 0.000
+Mouse Moved; Time: 1005.687; Location(578.5, 134.9), Pressure: 0.000
+Mouse Moved; Time: 1005.695; Location(582.0, 142.7), Pressure: 0.000
+Mouse Moved; Time: 1005.703; Location(587.3, 151.0), Pressure: 0.000
+Mouse Moved; Time: 1005.711; Location(593.7, 157.4), Pressure: 0.000
+Mouse Moved; Time: 1005.718; Location(600.8, 162.4), Pressure: 0.000
+Mouse Moved; Time: 1005.726; Location(613.9, 168.5), Pressure: 0.000
+Mouse Moved; Time: 1005.735; Location(623.7, 168.5), Pressure: 0.000
+Mouse Moved; Time: 1005.743; Location(636.2, 168.5), Pressure: 0.000
+Mouse Moved; Time: 1005.751; Location(647.3, 165.3), Pressure: 0.000
+Mouse Moved; Time: 1005.759; Location(661.0, 158.0), Pressure: 0.000
+Mouse Moved; Time: 1005.767; Location(673.9, 148.8), Pressure: 0.000
+Mouse Moved; Time: 1005.775; Location(678.9, 144.4), Pressure: 0.000
+Mouse Moved; Time: 1005.783; Location(688.1, 135.3), Pressure: 0.000
+Mouse Moved; Time: 1005.791; Location(696.4, 125.3), Pressure: 0.000
+Mouse Moved; Time: 1005.799; Location(703.5, 116.5), Pressure: 0.000
+Mouse Moved; Time: 1005.807; Location(707.3, 107.5), Pressure: 0.000
+Mouse Moved; Time: 1005.815; Location(709.3, 100.1), Pressure: 0.000
+Mouse Moved; Time: 1005.823; Location(710.0, 92.8), Pressure: 0.000
+Mouse Moved; Time: 1005.831; Location(710.0, 85.4), Pressure: 0.000
+Mouse Moved; Time: 1005.838; Location(708.4, 74.3), Pressure: 0.000
+Mouse Moved; Time: 1005.846; Location(700.4, 66.4), Pressure: 0.000
+Mouse Moved; Time: 1005.854; Location(690.9, 60.0), Pressure: 0.000
+Mouse Moved; Time: 1005.862; Location(677.8, 53.9), Pressure: 0.000
+Mouse Moved; Time: 1005.871; Location(664.7, 50.6), Pressure: 0.000
+Mouse Moved; Time: 1005.880; Location(649.1, 48.8), Pressure: 0.000
+Mouse Moved; Time: 1005.888; Location(630.1, 48.8), Pressure: 0.000
+Mouse Moved; Time: 1005.896; Location(612.9, 48.8), Pressure: 0.000
+Mouse Moved; Time: 1005.904; Location(595.7, 52.6), Pressure: 0.000
+Mouse Moved; Time: 1005.912; Location(581.1, 59.0), Pressure: 0.000
+Mouse Moved; Time: 1005.920; Location(575.0, 63.7), Pressure: 0.000
+Mouse Moved; Time: 1005.928; Location(563.6, 72.5), Pressure: 0.000
+Mouse Moved; Time: 1005.936; Location(554.9, 80.4), Pressure: 0.000
+Mouse Moved; Time: 1005.944; Location(548.5, 86.8), Pressure: 0.000
+Mouse Moved; Time: 1005.951; Location(547.1, 89.6), Pressure: 0.000
+Mouse Moved; Time: 1005.959; Location(544.8, 94.9), Pressure: 0.000
+Mouse Moved; Time: 1005.968; Location(543.1, 99.3), Pressure: 0.000
+Mouse Moved; Time: 1005.976; Location(541.8, 105.6), Pressure: 0.000
+Mouse Moved; Time: 1005.984; Location(541.8, 109.2), Pressure: 0.000
+Mouse Moved; Time: 1005.992; Location(541.8, 111.3), Pressure: 0.000
+Mouse Moved; Time: 1006.000; Location(543.1, 113.5), Pressure: 0.000
+Mouse Moved; Time: 1006.007; Location(545.3, 114.7), Pressure: 0.000
+Mouse Moved; Time: 1006.015; Location(548.1, 115.7), Pressure: 0.000
+Mouse Moved; Time: 1006.024; Location(551.6, 115.7), Pressure: 0.000
+Mouse Moved; Time: 1006.032; Location(555.2, 115.7), Pressure: 0.000
+Mouse Moved; Time: 1006.040; Location(559.6, 115.7), Pressure: 0.000
+Mouse Moved; Time: 1006.048; Location(564.9, 115.7), Pressure: 0.000
+Mouse Moved; Time: 1006.056; Location(569.2, 113.5), Pressure: 0.000
+Mouse Moved; Time: 1006.266; Location(568.3, 113.0), Pressure: 0.000
+Mouse Moved; Time: 1006.274; Location(563.3, 109.2), Pressure: 0.000
+Mouse Moved; Time: 1006.282; Location(557.2, 104.6), Pressure: 0.000
+Mouse Moved; Time: 1006.289; Location(549.0, 99.3), Pressure: 0.000
+Mouse Moved; Time: 1006.297; Location(523.7, 84.9), Pressure: 0.000
+Mouse Moved; Time: 1006.306; Location(500.2, 74.8), Pressure: 0.000
+Mouse Moved; Time: 1006.314; Location(487.6, 71.4), Pressure: 0.000
+Mouse Moved; Time: 1006.322; Location(442.8, 58.0), Pressure: 0.000
+Mouse Moved; Time: 1006.330; Location(413.9, 54.4), Pressure: 0.000
+Mouse Moved; Time: 1006.338; Location(400.0, 54.4), Pressure: 0.000
+Mouse Moved; Time: 1006.346; Location(371.1, 54.4), Pressure: 0.000
+Mouse Moved; Time: 1006.354; Location(346.4, 54.4), Pressure: 0.000
+Mouse Moved; Time: 1006.361; Location(321.7, 58.9), Pressure: 0.000
+Mouse Moved; Time: 1006.369; Location(302.8, 64.9), Pressure: 0.000
+Mouse Moved; Time: 1006.378; Location(284.8, 72.8), Pressure: 0.000
+Mouse Moved; Time: 1006.386; Location(279.2, 76.6), Pressure: 0.000
+Mouse Moved; Time: 1006.394; Location(267.8, 85.4), Pressure: 0.000
+Mouse Moved; Time: 1006.401; Location(249.8, 103.3), Pressure: 0.000
+Mouse Moved; Time: 1006.409; Location(242.5, 118.0), Pressure: 0.000
+Mouse Moved; Time: 1006.417; Location(234.1, 145.6), Pressure: 0.000
+Mouse Moved; Time: 1006.425; Location(231.8, 172.4), Pressure: 0.000
+Mouse Moved; Time: 1006.611; Location(229.8, 171.9), Pressure: 0.000
+Mouse Moved; Time: 1006.619; Location(226.0, 169.7), Pressure: 0.000
+Mouse Moved; Time: 1006.627; Location(219.7, 167.2), Pressure: 0.000
+Mouse Moved; Time: 1006.635; Location(212.3, 164.5), Pressure: 0.000
+Mouse Moved; Time: 1006.643; Location(204.9, 161.8), Pressure: 0.000
+Mouse Moved; Time: 1006.650; Location(188.7, 156.1), Pressure: 0.000
+Mouse Moved; Time: 1006.659; Location(171.5, 150.4), Pressure: 0.000
+Mouse Moved; Time: 1006.668; Location(153.5, 145.6), Pressure: 0.000
+Mouse Moved; Time: 1006.676; Location(136.3, 141.8), Pressure: 0.000
+Mouse Moved; Time: 1006.684; Location(128.9, 140.5), Pressure: 0.000
+Mouse Moved; Time: 1006.692; Location(114.9, 137.9), Pressure: 0.000
+Mouse Moved; Time: 1006.700; Location(102.4, 135.4), Pressure: 0.000
+Mouse Moved; Time: 1006.708; Location(92.6, 133.8), Pressure: 0.000
+Mouse Moved; Time: 1006.716; Location(89.8, 133.4), Pressure: 0.000
+Mouse Moved; Time: 1006.724; Location(82.4, 132.7), Pressure: 0.000
+Mouse Moved; Time: 1006.732; Location(78.1, 132.2), Pressure: 0.000
+Mouse Moved; Time: 1006.740; Location(75.2, 131.7), Pressure: 0.000
+Mouse Moved; Time: 1006.748; Location(72.4, 131.2), Pressure: 0.000
+Mouse Moved; Time: 1006.756; Location(70.9, 130.9), Pressure: 0.000
+Mouse Moved; Time: 1006.763; Location(69.3, 130.9), Pressure: 0.000
+Mouse Moved; Time: 1006.771; Location(68.7, 130.9), Pressure: 0.000
+Mouse Moved; Time: 1006.779; Location(68.1, 130.9), Pressure: 0.000
+Mouse Moved; Time: 1006.788; Location(67.5, 130.9), Pressure: 0.000
+Mouse Moved; Time: 1006.796; Location(67.2, 130.9), Pressure: 0.000
+Mouse Moved; Time: 1006.804; Location(66.6, 130.9), Pressure: 0.000
+Mouse Moved; Time: 1006.812; Location(66.0, 130.9), Pressure: 0.000
+Mouse Moved; Time: 1006.820; Location(65.4, 130.9), Pressure: 0.000
+Mouse Moved; Time: 1006.828; Location(64.3, 130.9), Pressure: 0.000
+Mouse Moved; Time: 1006.836; Location(63.3, 130.9), Pressure: 0.000
+Mouse Moved; Time: 1006.844; Location(61.7, 131.6), Pressure: 0.000
+Mouse Moved; Time: 1006.853; Location(60.2, 132.4), Pressure: 0.000
+Mouse Moved; Time: 1006.860; Location(57.4, 133.8), Pressure: 0.000
+Mouse Moved; Time: 1006.869; Location(56.3, 135.0), Pressure: 0.000
+Mouse Moved; Time: 1006.877; Location(54.6, 136.2), Pressure: 0.000
+Mouse Moved; Time: 1006.884; Location(52.8, 138.0), Pressure: 0.000
+Mouse Moved; Time: 1006.892; Location(51.1, 139.7), Pressure: 0.000
+Mouse Moved; Time: 1006.900; Location(49.8, 141.4), Pressure: 0.000
+Mouse Moved; Time: 1006.909; Location(48.6, 143.1), Pressure: 0.000
+Mouse Moved; Time: 1006.916; Location(47.8, 144.6), Pressure: 0.000
+Mouse Moved; Time: 1006.925; Location(47.1, 145.7), Pressure: 0.000
+Mouse Moved; Time: 1006.933; Location(46.5, 146.3), Pressure: 0.000
+Mouse Moved; Time: 1006.940; Location(46.1, 147.3), Pressure: 0.000
+Mouse Moved; Time: 1006.949; Location(45.9, 147.6), Pressure: 0.000
+Mouse Moved; Time: 1006.957; Location(45.5, 148.2), Pressure: 0.000
+Mouse Moved; Time: 1006.965; Location(45.3, 148.5), Pressure: 0.000
+Mouse Moved; Time: 1006.972; Location(45.0, 148.8), Pressure: 0.000
+Mouse Moved; Time: 1006.981; Location(44.4, 148.8), Pressure: 0.000
+Mouse Moved; Time: 1006.989; Location(44.1, 149.0), Pressure: 0.000
+Mouse Moved; Time: 1006.996; Location(43.5, 149.0), Pressure: 0.000
+Mouse Moved; Time: 1007.004; Location(43.2, 149.3), Pressure: 0.000
+Mouse Moved; Time: 1007.012; Location(42.6, 149.3), Pressure: 0.000
+Mouse Moved; Time: 1007.020; Location(42.0, 149.3), Pressure: 0.000
+Mouse Moved; Time: 1007.029; Location(41.4, 149.6), Pressure: 0.000
+Mouse Moved; Time: 1007.037; Location(40.8, 149.6), Pressure: 0.000
+Mouse Moved; Time: 1007.044; Location(40.2, 149.6), Pressure: 0.000
+Mouse Moved; Time: 1007.054; Location(39.6, 149.6), Pressure: 0.000
+Mouse Moved; Time: 1007.062; Location(39.3, 149.6), Pressure: 0.000
+Mouse Moved; Time: 1007.070; Location(39.0, 149.6), Pressure: 0.000
+Mouse Moved; Time: 1007.078; Location(38.4, 149.6), Pressure: 0.000
+Mouse Moved; Time: 1007.086; Location(38.2, 149.6), Pressure: 0.000
+Mouse Moved; Time: 1007.094; Location(37.5, 149.6), Pressure: 0.000
+Mouse Moved; Time: 1007.101; Location(37.3, 149.6), Pressure: 0.000
+Mouse Moved; Time: 1007.110; Location(36.7, 149.6), Pressure: 0.000
+Mouse Moved; Time: 1007.117; Location(36.4, 149.3), Pressure: 0.000
+Mouse Moved; Time: 1007.125; Location(35.8, 148.7), Pressure: 0.000
+Mouse Moved; Time: 1007.134; Location(35.1, 147.7), Pressure: 0.000
+Mouse Moved; Time: 1007.142; Location(34.0, 147.0), Pressure: 0.000
+Mouse Moved; Time: 1007.150; Location(33.3, 146.0), Pressure: 0.000
+Mouse Moved; Time: 1007.158; Location(32.6, 144.4), Pressure: 0.000
+Mouse Moved; Time: 1007.166; Location(31.9, 143.4), Pressure: 0.000
+Mouse Moved; Time: 1007.174; Location(30.6, 141.7), Pressure: 0.000
+Mouse Moved; Time: 1007.182; Location(29.9, 140.6), Pressure: 0.000
+Mouse Moved; Time: 1007.190; Location(29.1, 139.1), Pressure: 0.000
+Mouse Moved; Time: 1007.198; Location(28.8, 138.0), Pressure: 0.000
+Mouse Moved; Time: 1007.205; Location(28.1, 137.0), Pressure: 0.000
+Mouse Moved; Time: 1007.214; Location(27.8, 136.4), Pressure: 0.000
+Mouse Moved; Time: 1007.222; Location(27.4, 135.8), Pressure: 0.000
+Mouse Moved; Time: 1007.229; Location(27.2, 135.5), Pressure: 0.000
+Mouse Moved; Time: 1007.237; Location(27.2, 135.3), Pressure: 0.000
+Mouse Moved; Time: 1007.247; Location(27.2, 135.0), Pressure: 0.000
+Left Mouse Down; Time: 1007.255; Location(27.2, 134.7), Pressure: 1.000
+Left Mouse Dragged; Time: 1007.255; Location(27.2, 134.7), Pressure: 1.000
+Left Mouse Up; Time: 1007.319; Location(27.2, 134.7), Pressure: 0.000
