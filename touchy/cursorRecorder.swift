@@ -70,11 +70,20 @@ struct CursorEventMonitorsArray {
     //right mouse dragged is probably never going to be used
     
     static func startup() {
-        
+        //var timeptr = UnsafeMutablePointer<timespec>.allocate(capacity: 1)
+        var currentTime = timespec.init()
         mouseMovedMonitor = NSEvent.addGlobalMonitorForEvents(
             matching: [.mouseMoved],
             handler: { (e:NSEvent) in
                 DataOutput.cursorOutputFileHandle!.write((String(format: "Mouse Moved; Time: %0.3f; Location(%.1f, %.1f), Pressure: %.3f\n", e.timestamp, NSEvent.mouseLocation.x, NSEvent.mouseLocation.y, e.pressure)).data(using: .utf8)!)
+                
+                //this reference date is jan 1 2001
+                //print(NSDate.timeIntervalSinceReferenceDate + testdate.timeIntervalSince1970)
+                
+                clock_gettime(CLOCK_REALTIME, &currentTime)
+                print("mousemoved: "+String(currentTime.tv_sec)+":"+String(currentTime.tv_nsec))
+                
+//"Touch UNIX Time: %lu:%3lu\n", test1.tv_sec, test1.tv_nsec
         })
         
         leftMouseDownMonitor = NSEvent.addGlobalMonitorForEvents(
@@ -93,6 +102,9 @@ struct CursorEventMonitorsArray {
             matching: [.leftMouseDragged],
             handler: { (e: NSEvent) in
                 DataOutput.cursorOutputFileHandle!.write((String(format: "Left Mouse Dragged; Time: %0.3f; Location(%.1f, %.1f), Pressure: %.3f\n", e.timestamp, NSEvent.mouseLocation.x, NSEvent.mouseLocation.y, e.pressure)).data(using: .utf8)!)
+                
+                clock_gettime(CLOCK_REALTIME, &currentTime)
+                print("mousedragged: "+String(currentTime.tv_sec)+":"+String(currentTime.tv_nsec))
         })
         
         rightMouseDownMonitor = NSEvent.addGlobalMonitorForEvents(

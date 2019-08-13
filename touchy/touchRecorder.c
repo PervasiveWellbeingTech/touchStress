@@ -21,8 +21,9 @@ void MTFrameCallbackFunc(int device, MTTouch *touchArray, int numTouches, double
     for (int i = 0; i < numTouches; ++i) {
         MTTouch *current = &touchArray[i];
         
-        fprintf(touchoutputfile, "Time: %4.3f; State: %2d; ID: %2d; absPos(%6.3f, %6.3f); absVel(%6.3f, %6.3f); Ellipse(%5.2fx%5.2f); size(%5.3f)\n",
-               
+        //UNIX Time: %lu, time(NULL)
+        fprintf(touchoutputfile, "UNIX Time: %f, Time: %4.3f; State: %2d; ID: %2d; absPos(%6.3f, %6.3f); absVel(%6.3f, %6.3f); Ellipse(%5.2fx%5.2f); size(%5.3f)\n",
+               kCFAbsoluteTimeIntervalSince1970,
                current->timestamp,
                current->state,
                current->fingerID,
@@ -31,6 +32,10 @@ void MTFrameCallbackFunc(int device, MTTouch *touchArray, int numTouches, double
                current->majorAxis, current->minorAxis,
                current->zTotal
                );
+        struct timespec currentTime;
+        clock_gettime(CLOCK_REALTIME, &currentTime);
+        printf("Touch UNIX Time: %lu:%3lu\n", currentTime.tv_sec, currentTime.tv_nsec);
+        
     }
 }
 
@@ -50,7 +55,6 @@ int stopTouchRecording(MTDeviceRef dev) {
         dev = NULL;
     }
     else printf("error: device does not exist\n");
-    
     
     return 0;
 }
