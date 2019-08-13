@@ -9,7 +9,7 @@
 //Cleaned up version of the original code - Michael
 //Sources:
 //Original: https://web.archive.org/web/20151012175118/http://steike.com/code/multitouch/
-//Reverse engineered multitouch framework: https://github.com/calftrail/Touch/blob/master/TouchSynthesis/MultitouchSupport.h
+//Reverse engineered multitouch header: https://github.com/calftrail/Touch/blob/master/TouchSynthesis/MultitouchSupport.h
 //compile with MultitouchSupport framework
 
 //#include <math.h> don't think angle is useful for us, dont' need the math package
@@ -18,24 +18,23 @@
 #include "touchRecorder.h"
 
 void MTFrameCallbackFunc(int device, MTTouch *touchArray, int numTouches, double timestamp, int frame) {
+    struct timespec currentTime;
+    clock_gettime(CLOCK_REALTIME, &currentTime);
     for (int i = 0; i < numTouches; ++i) {
         MTTouch *current = &touchArray[i];
         
         //UNIX Time: %lu, time(NULL)
-        fprintf(touchoutputfile, "UNIX Time: %f, Time: %4.3f; State: %2d; ID: %2d; absPos(%6.3f, %6.3f); absVel(%6.3f, %6.3f); Ellipse(%5.2fx%5.2f); size(%5.3f)\n",
-               kCFAbsoluteTimeIntervalSince1970,
-               current->timestamp,
-               current->state,
-               current->fingerID,
-               current->absoluteVector.pos.x, current->absoluteVector.pos.y,
-               current->absoluteVector.vel.x, current->absoluteVector.vel.y,
-               current->majorAxis, current->minorAxis,
-               current->zTotal
-               );
-        struct timespec currentTime;
-        clock_gettime(CLOCK_REALTIME, &currentTime);
-        printf("Touch UNIX Time: %lu:%3lu\n", currentTime.tv_sec, currentTime.tv_nsec);
-        
+        //output format: timestamp,fingerID,abs
+        fprintf(touchoutputfile, "%lu.%lu,%d,%d,%.2f,%.2f,%.2f,%.2f,%.2f,%.2f,%.3f\n",
+                currentTime.tv_sec,
+                currentTime.tv_nsec/1000,
+                current->state,
+                current->fingerID,
+                current->absoluteVector.pos.x, current->absoluteVector.pos.y,
+                current->absoluteVector.vel.x, current->absoluteVector.vel.y,
+                current->majorAxis, current->minorAxis,
+                current->zTotal
+                );
     }
 }
 
@@ -65,7 +64,7 @@ void initTouchOutputFile(){
     //a means append
     //if file does not exist, fopen will automatically create it
     //call this AFTER the swift file init
-    touchoutputfile = fopen("./data/touchOutputData.txt", "a");
+    touchoutputfile = fopen("data/touchOutputData.txt", "a");
     if (touchoutputfile == NULL) {
         printf("error: touchoutputfile.txt initialization failed");
         exit(1);

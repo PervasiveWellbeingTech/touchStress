@@ -62,61 +62,104 @@ struct DataOutput {
 
 struct CursorEventMonitorsArray {
     static var mouseMovedMonitor: Any? = nil
+    //mouseMoved events = category 1
     static var leftMouseDownMonitor: Any? = nil
+    //leftMouseDown events = category 2
     static var leftMouseUpMonitor: Any? = nil
+    //leftMouseUp events = category 3
     static var leftMouseDraggedMonitor: Any? = nil
+    //leftMouseDragged events = category 4
     static var rightMouseDownMonitor: Any? = nil
+    //rightMouseDown events = category 5
     static var rightMouseUpMonitor: Any? = nil
+    //rightMouseUp events = category 6
     //right mouse dragged is probably never going to be used
     
+    //initializes all NSEvent monitors from above
+    //for now, app only records activity when in the background
     static func startup() {
-        //var timeptr = UnsafeMutablePointer<timespec>.allocate(capacity: 1)
+        //timespec struct from C: ulong tv_sec and ulong tv_nsec members. tv_nsec only has microsecond precision
         var currentTime = timespec.init()
+        //call on C function clock_gettime(clock,timespec) to get current time for each cursor event
+        //note that NSEvent's timestamp member differs from MultiTouch Framework's timestamp; system and touchpad have different timers
+        
+        //String format for all events: category,timestamp,screen_x,screen_y
         mouseMovedMonitor = NSEvent.addGlobalMonitorForEvents(
             matching: [.mouseMoved],
             handler: { (e:NSEvent) in
-                DataOutput.cursorOutputFileHandle!.write((String(format: "Mouse Moved; Time: %0.3f; Location(%.1f, %.1f), Pressure: %.3f\n", e.timestamp, NSEvent.mouseLocation.x, NSEvent.mouseLocation.y, e.pressure)).data(using: .utf8)!)
-                
-                //this reference date is jan 1 2001
-                //print(NSDate.timeIntervalSinceReferenceDate + testdate.timeIntervalSince1970)
-                
                 clock_gettime(CLOCK_REALTIME, &currentTime)
-                print("mousemoved: "+String(currentTime.tv_sec)+":"+String(currentTime.tv_nsec))
-                
-//"Touch UNIX Time: %lu:%3lu\n", test1.tv_sec, test1.tv_nsec
+                DataOutput.cursorOutputFileHandle!.write(
+                    (String(format: "1,%lu.%lu,%.2f,%.2f\n",
+                            currentTime.tv_sec,
+                            currentTime.tv_nsec/1000, //timespec.tv_nsec only has microsecond precision
+                            NSEvent.mouseLocation.x,
+                            NSEvent.mouseLocation.y)
+                        ).data(using: .utf8)!)
         })
         
         leftMouseDownMonitor = NSEvent.addGlobalMonitorForEvents(
             matching: [.leftMouseDown],
             handler: { (e:NSEvent) in
-                DataOutput.cursorOutputFileHandle!.write((String(format: "Left Mouse Down; Time: %0.3f; Location(%.1f, %.1f), Pressure: %.3f\n", e.timestamp, NSEvent.mouseLocation.x, NSEvent.mouseLocation.y, e.pressure)).data(using: .utf8)!)
+                clock_gettime(CLOCK_REALTIME, &currentTime)
+                DataOutput.cursorOutputFileHandle!.write(
+                    (String(format: "2,%lu.%lu,%.2f,%.2f\n",
+                            currentTime.tv_sec,
+                            currentTime.tv_nsec/1000,
+                            NSEvent.mouseLocation.x,
+                            NSEvent.mouseLocation.y)
+                        ).data(using: .utf8)!)
         })
         
         leftMouseUpMonitor = NSEvent.addGlobalMonitorForEvents(
             matching: [.leftMouseUp],
-            handler: { (e: NSEvent) in
-                DataOutput.cursorOutputFileHandle!.write((String(format: "Left Mouse Up; Time: %0.3f; Location(%.1f, %.1f), Pressure: %.3f\n", e.timestamp, NSEvent.mouseLocation.x, NSEvent.mouseLocation.y, e.pressure)).data(using: .utf8)!)
+            handler: { (e:NSEvent) in
+                clock_gettime(CLOCK_REALTIME, &currentTime)
+                DataOutput.cursorOutputFileHandle!.write(
+                    (String(format: "3,%lu.%lu,%.2f,%.2f\n",
+                            currentTime.tv_sec,
+                            currentTime.tv_nsec/1000,
+                            NSEvent.mouseLocation.x,
+                            NSEvent.mouseLocation.y)
+                        ).data(using: .utf8)!)
         })
         
         leftMouseDraggedMonitor = NSEvent.addGlobalMonitorForEvents(
             matching: [.leftMouseDragged],
-            handler: { (e: NSEvent) in
-                DataOutput.cursorOutputFileHandle!.write((String(format: "Left Mouse Dragged; Time: %0.3f; Location(%.1f, %.1f), Pressure: %.3f\n", e.timestamp, NSEvent.mouseLocation.x, NSEvent.mouseLocation.y, e.pressure)).data(using: .utf8)!)
-                
+            handler: { (e:NSEvent) in
                 clock_gettime(CLOCK_REALTIME, &currentTime)
-                print("mousedragged: "+String(currentTime.tv_sec)+":"+String(currentTime.tv_nsec))
+                DataOutput.cursorOutputFileHandle!.write(
+                    (String(format: "4,%lu.%lu,%.2f,%.2f\n",
+                            currentTime.tv_sec,
+                            currentTime.tv_nsec/1000,
+                            NSEvent.mouseLocation.x,
+                            NSEvent.mouseLocation.y)
+                        ).data(using: .utf8)!)
         })
         
         rightMouseDownMonitor = NSEvent.addGlobalMonitorForEvents(
             matching: [.rightMouseDown],
-            handler: { (e: NSEvent) in
-                DataOutput.cursorOutputFileHandle!.write((String(format: "Right Mouse Down; Time: %0.3f; Location(%.1f, %.1f), Pressure: %.3f\n", e.timestamp, NSEvent.mouseLocation.x, NSEvent.mouseLocation.y, e.pressure)).data(using: .utf8)!)
+            handler: { (e:NSEvent) in
+                clock_gettime(CLOCK_REALTIME, &currentTime)
+                DataOutput.cursorOutputFileHandle!.write(
+                    (String(format: "5,%lu.%lu,%.2f,%.2f\n",
+                            currentTime.tv_sec,
+                            currentTime.tv_nsec/1000,
+                            NSEvent.mouseLocation.x,
+                            NSEvent.mouseLocation.y)
+                        ).data(using: .utf8)!)
         })
         
         rightMouseUpMonitor = NSEvent.addGlobalMonitorForEvents(
             matching: [.rightMouseUp],
-            handler: { (e: NSEvent) in
-                DataOutput.cursorOutputFileHandle!.write((String(format: "Right Mouse Up; Time: %0.3f; Location(%.1f, %.1f), Pressure: %.3f\n", e.timestamp, NSEvent.mouseLocation.x, NSEvent.mouseLocation.y, e.pressure)).data(using: .utf8)!)
+            handler: { (e:NSEvent) in
+                clock_gettime(CLOCK_REALTIME, &currentTime)
+                DataOutput.cursorOutputFileHandle!.write(
+                    (String(format: "6,%lu.%lu,%.2f,%.2f\n",
+                            currentTime.tv_sec,
+                            currentTime.tv_nsec/1000,
+                            NSEvent.mouseLocation.x,
+                            NSEvent.mouseLocation.y)
+                        ).data(using: .utf8)!)
         })
         
     }
