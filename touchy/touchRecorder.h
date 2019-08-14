@@ -11,7 +11,8 @@
 
 #include <CoreFoundation/CoreFoundation.h>
 //for the CFArrayRef type if we want to make a list of multitouch devices
-FILE *touchoutputfile = NULL;
+FILE *touchOutputFile = NULL;
+char *pathToTouchOutput = "data/touchOutputData.txt";
 
 typedef struct {
     float x;
@@ -62,7 +63,9 @@ MTDeviceRef startTouchRecording(void);
 
 int stopTouchRecording(MTDeviceRef);
 
-//testing file io
-void initTouchOutputFile();
+//file io and reading
+void initTouchOutputFile(void);
+off_t statTouchOutputFile(void);
+
 
 #endif /* touchRecorder_h */

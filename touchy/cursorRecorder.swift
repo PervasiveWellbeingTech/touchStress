@@ -15,10 +15,11 @@ var touchDevice: ImplicitlyUnwrappedOptional<UnsafeMutableRawPointer>! = nil
 //we keep a pointer to the touchdevice so we can release it later when stopping recording
 
 struct DataOutput {
+    static var pathToCursorOutput = "/data/cursorOutputData.txt"
     static var cursorOutputFileHandle: FileHandle? = nil
     
     static func initDataFolders() {
-        print(FileManager.default.currentDirectoryPath + "/data/cursorOutputData.txt")
+        print(FileManager.default.currentDirectoryPath + pathToCursorOutput)
         
         
         //if file doesn't exist, create it
@@ -35,25 +36,41 @@ struct DataOutput {
             }
         }
         
-        
-        if FileManager.default.fileExists(atPath: FileManager.default.currentDirectoryPath + "/data/cursorOutputData.txt") {
+        if FileManager.default.fileExists(atPath: FileManager.default.currentDirectoryPath + pathToCursorOutput) {
             print("found touchoutput file!")
         }
         else {
-            FileManager.default.createFile(atPath: FileManager.default.currentDirectoryPath + "/data/cursorOutputData.txt", contents: nil, attributes: nil)
+            FileManager.default.createFile(atPath: FileManager.default.currentDirectoryPath + pathToCursorOutput, contents: nil, attributes: nil)
             print("touchoutput file not found. touchoutput file created!")
         }
         
         //create file handle
-        cursorOutputFileHandle = FileHandle.init(forWritingAtPath: FileManager.default.currentDirectoryPath + "/data/cursorOutputData.txt")
+        cursorOutputFileHandle = FileHandle.init(forWritingAtPath: FileManager.default.currentDirectoryPath + pathToCursorOutput)
         
         //write to file
         if cursorOutputFileHandle != nil {
             cursorOutputFileHandle?.seekToEndOfFile()
+            
+            //remember to remove this, it will screw up parsing
             cursorOutputFileHandle?.write("Write success".data(using: .utf8)!)
         }
         else {
             print("Error: write failed. cursor output file does not exist")
+        }
+        
+        
+    }
+    
+    //off_t is defined as signed int64
+    static func statCursorOutputFile() -> off_t {
+        do {
+            let fileDict = try FileManager.default.attributesOfItem(atPath: FileManager.default.currentDirectoryPath + pathToCursorOutput)
+            print("cursor output file size: ", fileDict[FileAttributeKey.size]!)
+            return fileDict[FileAttributeKey.size] as! off_t
+        }
+        catch {
+            print("error: file attributes could not be read")
+            return -1
         }
         
     }
@@ -77,7 +94,7 @@ struct CursorEventMonitorsArray {
     
     //initializes all NSEvent monitors from above
     //for now, app only records activity when in the background
-    static func startup() {
+    static func startCursorRecording() {
         //timespec struct from C: ulong tv_sec and ulong tv_nsec members. tv_nsec only has microsecond precision
         var currentTime = timespec.init()
         //call on C function clock_gettime(clock,timespec) to get current time for each cursor event
@@ -89,7 +106,7 @@ struct CursorEventMonitorsArray {
             handler: { (e:NSEvent) in
                 clock_gettime(CLOCK_REALTIME, &currentTime)
                 DataOutput.cursorOutputFileHandle!.write(
-                    (String(format: "1,%lu.%lu,%.2f,%.2f\n",
+                    (String(format: "1,%lu.%06lu,%.2f,%.2f\n",
                             currentTime.tv_sec,
                             currentTime.tv_nsec/1000, //timespec.tv_nsec only has microsecond precision
                             NSEvent.mouseLocation.x,
@@ -102,7 +119,7 @@ struct CursorEventMonitorsArray {
             handler: { (e:NSEvent) in
                 clock_gettime(CLOCK_REALTIME, &currentTime)
                 DataOutput.cursorOutputFileHandle!.write(
-                    (String(format: "2,%lu.%lu,%.2f,%.2f\n",
+                    (String(format: "2,%lu.%06lu,%.2f,%.2f\n",
                             currentTime.tv_sec,
                             currentTime.tv_nsec/1000,
                             NSEvent.mouseLocation.x,
@@ -115,7 +132,7 @@ struct CursorEventMonitorsArray {
             handler: { (e:NSEvent) in
                 clock_gettime(CLOCK_REALTIME, &currentTime)
                 DataOutput.cursorOutputFileHandle!.write(
-                    (String(format: "3,%lu.%lu,%.2f,%.2f\n",
+                    (String(format: "3,%lu.%06lu,%.2f,%.2f\n",
                             currentTime.tv_sec,
                             currentTime.tv_nsec/1000,
                             NSEvent.mouseLocation.x,
@@ -128,7 +145,7 @@ struct CursorEventMonitorsArray {
             handler: { (e:NSEvent) in
                 clock_gettime(CLOCK_REALTIME, &currentTime)
                 DataOutput.cursorOutputFileHandle!.write(
-                    (String(format: "4,%lu.%lu,%.2f,%.2f\n",
+                    (String(format: "4,%lu.%06lu,%.2f,%.2f\n",
                             currentTime.tv_sec,
                             currentTime.tv_nsec/1000,
                             NSEvent.mouseLocation.x,
@@ -141,7 +158,7 @@ struct CursorEventMonitorsArray {
             handler: { (e:NSEvent) in
                 clock_gettime(CLOCK_REALTIME, &currentTime)
                 DataOutput.cursorOutputFileHandle!.write(
-                    (String(format: "5,%lu.%lu,%.2f,%.2f\n",
+                    (String(format: "5,%lu.%06lu,%.2f,%.2f\n",
                             currentTime.tv_sec,
                             currentTime.tv_nsec/1000,
                             NSEvent.mouseLocation.x,
@@ -154,7 +171,7 @@ struct CursorEventMonitorsArray {
             handler: { (e:NSEvent) in
                 clock_gettime(CLOCK_REALTIME, &currentTime)
                 DataOutput.cursorOutputFileHandle!.write(
-                    (String(format: "6,%lu.%lu,%.2f,%.2f\n",
+                    (String(format: "6,%lu.06%lu,%.2f,%.2f\n",
                             currentTime.tv_sec,
                             currentTime.tv_nsec/1000,
                             NSEvent.mouseLocation.x,
@@ -164,7 +181,7 @@ struct CursorEventMonitorsArray {
         
     }
     
-    static func cleanup() {
+    static func stopCursorRecording() {
         if (CursorEventMonitorsArray.mouseMovedMonitor != nil) {
             NSEvent.removeMonitor(CursorEventMonitorsArray.mouseMovedMonitor!)
             CursorEventMonitorsArray.mouseMovedMonitor = nil

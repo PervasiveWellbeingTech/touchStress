@@ -27,18 +27,24 @@ class ViewController: NSViewController {
     @IBAction func startRecording(_ sender: Any) {
         if (!recording){
             touchDevice = startTouchRecording()
-            CursorEventMonitorsArray.startup()
+            CursorEventMonitorsArray.startCursorRecording()
             recording = true
             startButton.title = "Stop Recording"
         }
         else if (recording) {
             stopTouchRecording(touchDevice)
             touchDevice = nil
-            CursorEventMonitorsArray.cleanup()
+            CursorEventMonitorsArray.stopCursorRecording()
             recording = false
             startButton.title = "Start Recording"
         }
     }
 
+    @IBAction func updateStats(_ sender: Any) {
+        let touchOutputFileSize:off_t = statTouchOutputFile()
+        let cursorOutputFileSize:off_t = DataOutput.statCursorOutputFile()
+        dataField.stringValue = "Touch output file size: " + String(touchOutputFileSize) + "\nCursor output file size: " + String(cursorOutputFileSize)
+    }
+    @IBOutlet weak var dataField: NSTextField!
 }
 
