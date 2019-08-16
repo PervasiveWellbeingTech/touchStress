@@ -16,14 +16,22 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Insert code here to initialize your application
         
         //cursorRecorder.swift
-        DataOutput.initDataFolders()
+        //DataOutput.initDataFolders()
         
         //touchRecorder.c
-        initTouchOutputFile()
+        //initTouchOutputFile()
+        print("testsh")
+        testsh()
+        print("swift version")
+        DataOutput.testgetcwd()
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
+        //be sure to stop recording & flush buffers if application is terminated while still recording
+        if (recording) {
+            stopTouchRecording(touchDevice)
+        }
         
     }
 

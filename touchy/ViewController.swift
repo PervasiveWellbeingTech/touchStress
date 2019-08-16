@@ -43,7 +43,7 @@ class ViewController: NSViewController {
     @IBAction func updateStats(_ sender: Any) {
         let touchOutputFileSize:off_t = statTouchOutputFile()
         let cursorOutputFileSize:off_t = DataOutput.statCursorOutputFile()
-        dataField.stringValue = "Touch output file size: " + String(touchOutputFileSize) + "\nCursor output file size: " + String(cursorOutputFileSize)
+        dataField.stringValue = "Touch output file size: " + String(touchOutputFileSize) + " bytes\nCursor output file size: " + String(cursorOutputFileSize) + " bytes"
     }
     @IBOutlet weak var dataField: NSTextField!
 }

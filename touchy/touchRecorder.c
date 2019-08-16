@@ -51,6 +51,7 @@ MTDeviceRef startTouchRecording() {
 int stopTouchRecording(MTDeviceRef dev) {
     //fflush: flushes buffers immediately instead of upon program end
     fflush(touchOutputFile);
+    fclose(touchOutputFile);
     if (dev && MTDeviceIsRunning(dev)){
         MTDeviceStop(dev);
         MTDeviceRelease(dev);
@@ -71,12 +72,13 @@ void initTouchOutputFile(){
     //a means append
     //if file does not exist, fopen will automatically create it
     //call this AFTER the swift file init
+    
+    // this breaks
     touchOutputFile = fopen(pathToTouchOutput, "a");
     if (touchOutputFile == NULL) {
         printf("error: touchOutputFile.txt initialization failed");
         exit(1);
-    }
-    
+    }    
 }
 
 //off_t is equivalent to long long signed int
@@ -88,4 +90,22 @@ off_t statTouchOutputFile(){
     }
     printf("error: file stats could not be read");
     return -1;
+}
+
+void testsh(){
+    /*
+    FILE* teststream = popen("echo `pwd`", "r");
+    char* currentPath = malloc(PATH_MAX);
+    fgets(currentPath, PATH_MAX, teststream);
+    printf(currentPath);
+    pclose(teststream);
+     */
+    CFBundleRef mainBundle = CFBundleGetMainBundle();
+    CFURLRef mainBundleURL= CFBundleCopyBundleURL(mainBundle);
+    CFStringRef mainBundleCFString =  CFURLCopyPath(mainBundleURL);
+    char* pathBuffer = malloc(PATH_MAX);
+    CFStringGetCString(mainBundleCFString, pathBuffer, PATH_MAX, kCFStringEncodingUTF8);
+    printf(pathBuffer);
+    
+    
 }
