@@ -21,6 +21,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         //touchRecorder.c
         initTouchOutputFile()
+        
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {

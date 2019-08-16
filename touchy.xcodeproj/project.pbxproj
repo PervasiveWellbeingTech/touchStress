@@ -8,9 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		4129433422FCA1210051003F /* cursorRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4129433322FCA1210051003F /* cursorRecorder.swift */; };
+		41C4DAAF230755D400725AA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41C4DAAE230755D400725AA0 /* Assets.xcassets */; };
 		41F58F0622FB77E6008846E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F58F0522FB77E6008846E6 /* AppDelegate.swift */; };
 		41F58F0822FB77E6008846E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41F58F0722FB77E6008846E6 /* ViewController.swift */; };
-		41F58F0A22FB77E6008846E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41F58F0922FB77E6008846E6 /* Assets.xcassets */; };
 		41F58F0D22FB77E6008846E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41F58F0B22FB77E6008846E6 /* Main.storyboard */; };
 		41F58F1822FB786B008846E6 /* touchRecorder.c in Sources */ = {isa = PBXBuildFile; fileRef = 41F58F1722FB786B008846E6 /* touchRecorder.c */; };
 		41F58F1B22FB7951008846E6 /* MultitouchSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F58F1A22FB7951008846E6 /* MultitouchSupport.framework */; };
@@ -18,10 +18,10 @@
 
 /* Begin PBXFileReference section */
 		4129433322FCA1210051003F /* cursorRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cursorRecorder.swift; sourceTree = "<group>"; };
+		41C4DAAE230755D400725AA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41F58F0222FB77E6008846E6 /* touchy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = touchy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41F58F0522FB77E6008846E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41F58F0722FB77E6008846E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		41F58F0922FB77E6008846E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41F58F0C22FB77E6008846E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41F58F0E22FB77E6008846E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41F58F0F22FB77E6008846E6 /* touchy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = touchy.entitlements; sourceTree = "<group>"; };
@@ -66,9 +66,9 @@
 				41F58F0522FB77E6008846E6 /* AppDelegate.swift */,
 				41F58F0722FB77E6008846E6 /* ViewController.swift */,
 				4129433322FCA1210051003F /* cursorRecorder.swift */,
-				41F58F0922FB77E6008846E6 /* Assets.xcassets */,
 				41F58F0B22FB77E6008846E6 /* Main.storyboard */,
 				41F58F0E22FB77E6008846E6 /* Info.plist */,
+				41C4DAAE230755D400725AA0 /* Assets.xcassets */,
 				41F58F0F22FB77E6008846E6 /* touchy.entitlements */,
 				41F58F1622FB786B008846E6 /* touchRecorder.h */,
 				41F58F1722FB786B008846E6 /* touchRecorder.c */,
@@ -150,7 +150,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41F58F0A22FB77E6008846E6 /* Assets.xcassets in Resources */,
+				41C4DAAF230755D400725AA0 /* Assets.xcassets in Resources */,
 				41F58F0D22FB77E6008846E6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
