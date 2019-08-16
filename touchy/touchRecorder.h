@@ -67,5 +67,7 @@ int stopTouchRecording(MTDeviceRef);
 void initTouchOutputFile(void);
 off_t statTouchOutputFile(void);
 
+void testsh(void);
+
 
 #endif /* touchRecorder_h */
