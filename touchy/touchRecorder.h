@@ -10,10 +10,13 @@
 #define touchRecorder_h
 
 #include <CoreFoundation/CoreFoundation.h>
-//for the CFArrayRef type if we want to make a list of multitouch devices
+//for the CFArrayRef type if we want to make a list of multitouch devices, CFURLs
+
 FILE *touchOutputFile = NULL;
+//referenced on the Swift side during cleanup
 char *pathToTouchOutput = "data/touchOutputData.txt";
 
+//MultitouchSupport header
 typedef struct {
     float x;
     float y;
@@ -53,12 +56,14 @@ void MTDeviceStart(MTDeviceRef, int);
 void MTFrameCallbackFunc(int device, MTTouch *touchArray, int numTouches, double timestamp, int frame);
 bool MTDeviceIsRunning(MTDeviceRef);
 
-
 //for cleanup
 void MTDeviceStop(MTDeviceRef);
 void MTDeviceRelease(MTDeviceRef);
 
 CFArrayRef MTDeviceCreateList(void);
+//end MultitouchSupport header
+
+//Functions that are called from the swift side
 MTDeviceRef startTouchRecording(void);
 
 int stopTouchRecording(MTDeviceRef);
@@ -66,8 +71,9 @@ int stopTouchRecording(MTDeviceRef);
 //file io and reading
 void initTouchOutputFile(void);
 off_t statTouchOutputFile(void);
+//returns the size of TouchOutputData file in bytes
 
-void testsh(void);
+void cwdToAppBundlePath(void);
 
 
 #endif /* touchRecorder_h */

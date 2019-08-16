@@ -6,17 +6,16 @@
 //  Copyright © 2019 Michael An. All rights reserved.
 //
 
-//Cleaned up version of the original code - Michael
 //Sources:
 //Original: https://web.archive.org/web/20151012175118/http://steike.com/code/multitouch/
 //Reverse engineered multitouch header: https://github.com/calftrail/Touch/blob/master/TouchSynthesis/MultitouchSupport.h
 //compile with MultitouchSupport framework
 
-//#include <math.h> don't think angle is useful for us, dont' need the math package
-
 #include <unistd.h>
 #include <sys/stat.h>
-//#include <sys/types.h> //needed for the types in the stat struct, but looks like CF includes it already?
+//used by stat
+//#include <sys/types.h>
+//needed for the types in the stat struct (e.g. off_t), but looks like CF includes it already
 #include "touchRecorder.h"
 
 void MTFrameCallbackFunc(int device, MTTouch *touchArray, int numTouches, double timestamp, int frame) {
@@ -51,11 +50,13 @@ MTDeviceRef startTouchRecording() {
 int stopTouchRecording(MTDeviceRef dev) {
     //fflush: flushes buffers immediately instead of upon program end
     fflush(touchOutputFile);
-    fclose(touchOutputFile);
+    //fclose(touchOutputFile);
+    //we actually don't want to fclose since the user might start up recording again
+    //open file streams will be automatically closed when program ends
     if (dev && MTDeviceIsRunning(dev)){
         MTDeviceStop(dev);
         MTDeviceRelease(dev);
-        printf("successfully deallocated\n");
+        printf("touch device successfully released\n");
         dev = NULL;
     }
     else {
@@ -73,7 +74,6 @@ void initTouchOutputFile(){
     //if file does not exist, fopen will automatically create it
     //call this AFTER the swift file init
     
-    // this breaks
     touchOutputFile = fopen(pathToTouchOutput, "a");
     if (touchOutputFile == NULL) {
         printf("error: touchOutputFile.txt initialization failed");
@@ -92,7 +92,7 @@ off_t statTouchOutputFile(){
     return -1;
 }
 
-void testsh(){
+void cwdToAppBundlePath(){
     /*
     FILE* teststream = popen("echo `pwd`", "r");
     char* currentPath = malloc(PATH_MAX);
@@ -100,12 +100,26 @@ void testsh(){
     printf(currentPath);
     pclose(teststream);
      */
+    
+    //unavoidably awkward way of getting the .app directory's cwd for future relative paths to work
+    char* pathBuffer = malloc(PATH_MAX);
+    
     CFBundleRef mainBundle = CFBundleGetMainBundle();
     CFURLRef mainBundleURL= CFBundleCopyBundleURL(mainBundle);
     CFStringRef mainBundleCFString =  CFURLCopyPath(mainBundleURL);
-    char* pathBuffer = malloc(PATH_MAX);
     CFStringGetCString(mainBundleCFString, pathBuffer, PATH_MAX, kCFStringEncodingUTF8);
+    //manually append the ".." to the end of the buffer directory .../Products/Debug/touchy.app/
+    //too lazy to import a library
+    int i = 0;
+    while (pathBuffer[i] != '\0') ++i;
+    pathBuffer[i] = '.';
+    ++i;
+    pathBuffer[i] = '.';
+    ++i;
+    pathBuffer[i] = '\0';
     printf(pathBuffer);
+    chdir(pathBuffer);
     
+    free(pathBuffer);
     
 }

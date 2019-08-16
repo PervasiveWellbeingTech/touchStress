@@ -14,16 +14,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
+        cwdToAppBundlePath()
         
         //cursorRecorder.swift
-        //DataOutput.initDataFolders()
+        DataOutput.initDataFolderAndCursorOutputFile()
         
         //touchRecorder.c
-        //initTouchOutputFile()
-        print("testsh")
-        testsh()
-        print("swift version")
-        DataOutput.testgetcwd()
+        initTouchOutputFile()
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {

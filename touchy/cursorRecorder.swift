@@ -8,7 +8,8 @@
 
 import Cocoa
 
-var recording = false //used by swift app buttons to keep track of state
+var recording = false
+//used by swift app buttons to keep track of state
 
 var touchDevice: ImplicitlyUnwrappedOptional<UnsafeMutableRawPointer>! = nil
 //Swift equivalent of device pointer in C
@@ -18,13 +19,7 @@ struct DataOutput {
     static var pathToCursorOutput = "/data/cursorOutputData.txt"
     static var cursorOutputFileHandle: FileHandle? = nil
     
-    static func testgetcwd() {
-        let appBundle = CFBundleGetMainBundle()
-        print(CFBundleCopyBundleURL(appBundle))
-        
-    }
-    
-    static func initDataFolders() {
+    static func initDataFolderAndCursorOutputFile() {
         
         print(FileManager.default.currentDirectoryPath + "/data")
         
@@ -56,9 +51,7 @@ struct DataOutput {
         //write to file
         if cursorOutputFileHandle != nil {
             cursorOutputFileHandle?.seekToEndOfFile()
-            
-            //remember to remove this, it will screw up parsing
-            print("Write to file success")
+            print("file handle to cursor output file successfully established")
         }
         else {
             print("Error: write failed. cursor output file does not exist")
@@ -276,6 +269,8 @@ struct CursorEventMonitorsArray {
         
     }
     
+    //must manually deallocate the event monitors
+    //change to an event monitor array if there's time
     static func stopCursorRecording() {
         if (CursorEventMonitorsArray.bgMouseMovedMonitor != nil) {
             NSEvent.removeMonitor(CursorEventMonitorsArray.bgMouseMovedMonitor!)
@@ -331,8 +326,6 @@ struct CursorEventMonitorsArray {
             CursorEventMonitorsArray.fgRightMouseUpMonitor = nil
         }
     }
-    
-    
     
     
 }
