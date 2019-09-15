@@ -94,17 +94,17 @@ struct CursorEventMonitorsArray {
     static var bgRightMouseUpMonitor: Any? = nil
     static var fgRightMouseUpMonitor: Any? = nil
     //rightMouseUp events = category 6
-    //right mouse dragged is probably never going to be used
+    //right mouse dragged is probably never going to be used, but it can be tracked
     
     //initializes all NSEvent monitors from above
-    //for now, app only records activity when in the background
     static func startCursorRecording() {
-        //timespec struct from C: ulong tv_sec and ulong tv_nsec members. tv_nsec only has microsecond precision
+        //timespec struct from C: ulong tv_sec and ulong tv_nsec members.
+        //tv_nsec actually only has microsecond precision, further precision than that is zeroed out
         var currentTime = timespec.init()
         //call on C function clock_gettime(clock,timespec) to get current time for each cursor event
-        //note that NSEvent's timestamp member differs from MultiTouch Framework's timestamp; system and touchpad have different timers
+        //note that NSEvent's timestamp member differs from MultiTouch Framework's timestamp; system and touchpad have different timers. Thus we use system time for both timestamps.
         
-        //String format for all events: category,timestamp,screen_x,screen_y
+        //log file output format for all events: category,timestamp,screen_x,screen_y
         bgMouseMovedMonitor = NSEvent.addGlobalMonitorForEvents(
             matching: [.mouseMoved],
             handler: { (e:NSEvent) in
@@ -129,6 +129,7 @@ struct CursorEventMonitorsArray {
                         NSEvent.mouseLocation.x,
                         NSEvent.mouseLocation.y)
                         ).data(using: .utf8)!)
+                //really not sure why, but local event monitor's handler requires an event return, whereas global event monitor is void. Don't even know what the returned event is used for... doesn't seem to affect this program's functionality though
                 return e
         })
         
@@ -270,7 +271,7 @@ struct CursorEventMonitorsArray {
     }
     
     //must manually deallocate the event monitors
-    //change to an event monitor array if there's time
+    //change to an event monitor array if there's time. struct is inconvenient now that we're recording more event types.
     static func stopCursorRecording() {
         if (CursorEventMonitorsArray.bgMouseMovedMonitor != nil) {
             NSEvent.removeMonitor(CursorEventMonitorsArray.bgMouseMovedMonitor!)

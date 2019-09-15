@@ -9,7 +9,10 @@
 //Sources:
 //Original: https://web.archive.org/web/20151012175118/http://steike.com/code/multitouch/
 //Reverse engineered multitouch header: https://github.com/calftrail/Touch/blob/master/TouchSynthesis/MultitouchSupport.h
-//compile with MultitouchSupport framework
+//compile with MultitouchSupport framework (found in /System/Library/PrivateFrameworks)
+
+//tested on a 2015 Macbook Pro, 2015 Macbook, 2018? Macbook Air. Should work on all Apple laptops with MultiTouch support, going forward.
+//There is a possibility that the framework is changed and this program breaks, but it probably won't be touched
 
 #include <unistd.h>
 #include <sys/stat.h>
@@ -24,7 +27,7 @@ void MTFrameCallbackFunc(int device, MTTouch *touchArray, int numTouches, double
     for (int i = 0; i < numTouches; ++i) {
         MTTouch *current = &touchArray[i];
         
-        //output format: timestamp,fingerID,absPosX,absPosY,absVelX,absVelY,ellipseMajor,ellipseMinor,contactSize
+        //output format: timestamp,touchState,fingerID,absPosX,absPosY,absVelX,absVelY,ellipseMajor,ellipseMinor,contactSize
         fprintf(touchOutputFile, "%lu.%06lu,%d,%d,%.2f,%.2f,%.2f,%.2f,%.2f,%.2f,%.3f\n",
                 currentTime.tv_sec,
                 currentTime.tv_nsec/1000,
@@ -39,7 +42,7 @@ void MTFrameCallbackFunc(int device, MTTouch *touchArray, int numTouches, double
 }
 
 //consider just using a global variable instead of passing around references?
-//low prio
+//low prio change
 MTDeviceRef startTouchRecording() {
     MTDeviceRef dev = MTDeviceCreateDefault();
     MTRegisterContactFrameCallback(dev, MTFrameCallbackFunc);
@@ -72,7 +75,7 @@ void initTouchOutputFile(){
     //fopen(path, options)
     //a means append
     //if file does not exist, fopen will automatically create it
-    //call this AFTER the swift file init
+    //call this AFTER the swift file init (which creates the folder that will contain data outputs)
     
     touchOutputFile = fopen(pathToTouchOutput, "a");
     if (touchOutputFile == NULL) {
@@ -93,23 +96,16 @@ off_t statTouchOutputFile(){
 }
 
 void cwdToAppBundlePath(){
-    /*
-    FILE* teststream = popen("echo `pwd`", "r");
-    char* currentPath = malloc(PATH_MAX);
-    fgets(currentPath, PATH_MAX, teststream);
-    printf(currentPath);
-    pclose(teststream);
-     */
     
-    //unavoidably awkward way of getting the .app directory's cwd for future relative paths to work
+    //really awkward way of getting the .app directory's cwd for future relative paths to work
+    //there probably is a safer solution... medium prio issue
     char* pathBuffer = malloc(PATH_MAX);
     
     CFBundleRef mainBundle = CFBundleGetMainBundle();
     CFURLRef mainBundleURL= CFBundleCopyBundleURL(mainBundle);
     CFStringRef mainBundleCFString =  CFURLCopyPath(mainBundleURL);
     CFStringGetCString(mainBundleCFString, pathBuffer, PATH_MAX, kCFStringEncodingUTF8);
-    //manually append the ".." to the end of the buffer directory .../Products/Debug/touchy.app/
-    //too lazy to import a library
+    //manually append the ".." to the end of the buffer directory (e.g. /Products/Debug/touchy.app/..)
     int i = 0;
     while (pathBuffer[i] != '\0') ++i;
     pathBuffer[i] = '.';
@@ -117,7 +113,9 @@ void cwdToAppBundlePath(){
     pathBuffer[i] = '.';
     ++i;
     pathBuffer[i] = '\0';
+    //following line is for finding where the data output files are, remove before deployment
     printf(pathBuffer);
+    
     chdir(pathBuffer);
     
     free(pathBuffer);

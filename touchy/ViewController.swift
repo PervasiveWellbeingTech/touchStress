@@ -23,6 +23,7 @@ class ViewController: NSViewController {
 
     @IBOutlet weak var startButton: NSButton!
     
+    //this toggle button starts/stops cursor and touch recording
     @IBAction func startRecording(_ sender: Any) {
         if (!recording){
             touchDevice = startTouchRecording()
@@ -38,7 +39,8 @@ class ViewController: NSViewController {
             startButton.title = "Start Recording"
         }
     }
-
+    
+    //this button shows output file sizes
     @IBAction func updateStats(_ sender: Any) {
         let touchOutputFileSize:off_t = statTouchOutputFile()
         let cursorOutputFileSize:off_t = DataOutput.statCursorOutputFile()

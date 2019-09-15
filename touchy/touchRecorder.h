@@ -60,6 +60,8 @@ bool MTDeviceIsRunning(MTDeviceRef);
 void MTDeviceStop(MTDeviceRef);
 void MTDeviceRelease(MTDeviceRef);
 
+//if there are multiple multitouch devices, use this instead of MTDeviceCreateDefault
+//multitouch devices include builtin touchpad, external touchpads (magic trackpad), and even apple's magic mouse
 CFArrayRef MTDeviceCreateList(void);
 //end MultitouchSupport header
 
@@ -70,9 +72,12 @@ int stopTouchRecording(MTDeviceRef);
 
 //file io and reading
 void initTouchOutputFile(void);
-off_t statTouchOutputFile(void);
-//returns the size of TouchOutputData file in bytes
 
+//returns the size of TouchOutputData file in bytes
+off_t statTouchOutputFile(void);
+
+//ensures that the file output is written to the folder containing the app bundle
+//without this, double clicking on the app icon runs the app from default path starting location, and data folders are created in / instead of the app's folder
 void cwdToAppBundlePath(void);
 
 

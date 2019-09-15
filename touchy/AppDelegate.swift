@@ -16,16 +16,18 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Insert code here to initialize your application
         cwdToAppBundlePath()
         
-        //cursorRecorder.swift
+        //from cursorRecorder.swift
         DataOutput.initDataFolderAndCursorOutputFile()
         
-        //touchRecorder.c
+        //from touchRecorder.c
         initTouchOutputFile()
         
+        //note: cursor outputs involve screen coordinates. touch outputs involve touchpad coordinates (millimeters)
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
+        
         //be sure to stop recording & flush buffers if application is terminated while still recording
         if (recording) {
             stopTouchRecording(touchDevice)
